@@ -1006,3 +1006,739 @@
 01:22:42.964620 DEBUG: COM19: retrieved feedback: GOOD
 01:22:42  avr19  ⛏ Accepted 6/6 (100%) ∙ 02.2s ∙ 5 kH/s ⚙ diff 333 ∙ ping 22ms
 --------------------------------------------------------
+
+
+
+02:32:51.889054 DEBUG: Config file loaded
+
+ ‖ Official Duino-Coin © AVR Miner 3.5 2019-2023
+ ‖ https://github.com/revoxhere/duino-coin
+ ‖ AVR board(s) on port(s): COM7, COM8
+ ‖ Developer donation level: 0
+ ‖ Algorithm: DUCO-S1A ⚙ AVR diff
+02:32:51.951388 DEBUG: Error displaying greeting message: can only concatenate str (not "list") to str
+02:32:52  net0  Searching for the fastest node to connect to
+02:32:53  net0  Retrieved mining node: iowa-pool-1
+02:32:55.061028 02:32:55.061028 DEBUG: Connecting to ('162.212.157.226', 5366)DEBUG: Connecting to ('162.212.157.226', 5366)
+
+02:32:55 02:32:55  Server version  Server version   3.03.0
+
+02:32:55 02:32:55  sys8  net0   AVR mining thread is startingConnected using DUCO-S1A algorithm (COM8) to master Duino-Coin server (v3.0)
+
+02:32:55.138985 DEBUG: COM8: Sending hash test to the board
+02:32:55.154591 DEBUG: COM8: Value Sent for Testing Speed - ba29a15896fd2d792d5c4b60668bf2b9feebc51d,d0beba883d7e8cd119ea2b0e09b78f60f29e0968,10,
+02:32:55.154591 DEBUG: COM8: encoding - utf-8
+02:32:55.170301 02:32:55 DEBUG: COM8: Reading hash test from the board net0
+ Server message of the day: Welcome to iowa USA node hosted by revox (inst. 1) | NEW: Exchange various cryptocoins fast on fluffyswap.com
+02:32:55  sys7  AVR mining thread is starting using DUCO-S1A algorithm (COM7)
+02:32:55.185878 DEBUG: COM7: Sending hash test to the board
+02:32:55.185878 DEBUG: COM7: Value Sent for Testing Speed - ba29a15896fd2d792d5c4b60668bf2b9feebc51d,d0beba883d7e8cd119ea2b0e09b78f60f29e0968,10,
+02:32:55.185878 DEBUG: COM7: encoding - utf-8
+02:32:55.201582 DEBUG: COM7: Reading hash test from the board
+02:32:55.326533 DEBUG: COM8: received - 110010,100100010111001000,DUCOID30323131360B1916
+02:32:55.326533 DEBUG: COM8: Result: 110010
+02:32:55.326533 DEBUG: COM8: computetime - 0.14894
+02:32:55.342057 DEBUG: COM8: num_res - 50
+02:32:55.357760 DEBUG: COM8: hashrate_test - 335.7102:32:55.357760
+DEBUG: COM7: received - 110010,100100010111001100,DUCOID3032313136110A13
+02:32:55  sys8 02:32:55.357760  DEBUG: COM7: Result: 110010Hashrate test ended with 336 H/s
+, assigned starting difficulty: AVR
+02:32:55.373565 DEBUG: COM7: computetime - 0.14894
+02:32:55.373565 02:32:55.373565 DEBUG: COM7: num_res - 50DEBUG: COM8: Requesting job
+
+02:32:55.389226 DEBUG: COM7: hashrate_test - 335.7102:32:55.389226
+DEBUG: COM8: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:32:55  sys7  Hashrate test ended with 336 H/s, assigned starting difficulty: AVR
+02:32:55.420434 DEBUG: COM7: Requesting job
+02:32:55.420434 DEBUG: COM7: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:32:55.420434 DEBUG: COM8: job_received - f60fd7dd130a0bd527a0b61d25e4e7e79a3ef75b,2a3c0ba6d3ba1179b2c0130eec733faa1254f49a,8
+02:32:55.436019 DEBUG: COM8: Received: f60fd7dd130a0bd527a0b61d25e4e7e79a3ef75b
+02:32:55.451677 DEBUG: COM8: Sending job to the board
+02:32:55.451677 DEBUG: COM7: job_received - 13be9362b9d94cab6447dd79578208e1432818ed,3e16959a4d49bfc87b3d6aafea7ead5aa66530e8,802:32:55.451677
+DEBUG: COM8: board_job_request - f60fd7dd130a0bd527a0b61d25e4e7e79a3ef75b,2a3c0ba6d3ba1179b2c0130eec733faa1254f49a,8,
+02:32:55.451677 DEBUG: COM7: Received: 13be9362b9d94cab6447dd79578208e1432818ed02:32:55.467202
+DEBUG: COM8: Reading result from the board
+02:32:55.467202 DEBUG: COM7: Sending job to the board
+02:32:55.482901 DEBUG: COM7: board_job_request - 13be9362b9d94cab6447dd79578208e1432818ed,3e16959a4d49bfc87b3d6aafea7ead5aa66530e8,8,
+02:32:55.482901 DEBUG: COM7: Reading result from the board
+02:32:56.154920 DEBUG: COM8: board_job_response - 11101001,10100111011001100100,DUCOID30323131360B1916
+02:32:56.170559 DEBUG: COM8: Result: 11101001
+02:32:56.185595 DEBUG: COM8: computetime - 0.68567
+02:32:56.201306 DEBUG: COM8: num_res - 233
+02:32:56.201306 DEBUG: COM8: hashrate_t - 339.81
+02:32:56.216895 DEBUG: COM8: client_response_send - 233,339.81,Official AVR Miner 3.5,None,DUCOID30323131360B1916
+02:32:56.248137 DEBUG: COM8: client_response_feedback - GOOD
+02:32:56.248137 DEBUG: COM8: retrieved feedback: GOOD
+02:32:56  avr8  Accepted 1/1 (100%) ∙ 00.7s ∙ 340 H/s @ diff 8 ∙ ping 31ms
+02:32:56.310586 DEBUG: COM8: Requesting job
+02:32:56.310586 DEBUG: COM8: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:32:56.341843 DEBUG: COM8: job_received - e500d0d3813c91a4397f7933208460a344892d3b,076d42d8177d196026254ab6e7053818985441f7,8
+02:32:56.341843 DEBUG: COM8: Received: e500d0d3813c91a4397f7933208460a344892d3b
+02:32:56.357515 DEBUG: COM8: Sending job to the board
+02:32:56.357515 DEBUG: COM8: board_job_request - e500d0d3813c91a4397f7933208460a344892d3b,076d42d8177d196026254ab6e7053818985441f7,8,
+02:32:56.357515 DEBUG: COM8: Reading result from the board
+02:32:56.732877 DEBUG: COM8: board_job_response - 1111010,1010111101111100000,DUCOID30323131360B1916
+02:32:56.748133 DEBUG: COM8: Result: 1111010
+02:32:56.763816 DEBUG: COM8: computetime - 0.35939
+02:32:56.763816 DEBUG: COM8: num_res - 122
+02:32:56.779439 DEBUG: COM8: hashrate_t - 339.46
+02:32:56.779439 DEBUG: COM8: client_response_send - 122,339.46,Official AVR Miner 3.5,None,DUCOID30323131360B1916
+02:32:56.810698 DEBUG: COM8: client_response_feedback - GOOD
+02:32:56.826369 DEBUG: COM8: retrieved feedback: GOOD
+02:32:56  avr8  Accepted 2/2 (100%) ∙ 00.4s ∙ 340 H/s @ diff 8 ∙ ping 23ms
+02:32:56.873461 DEBUG: COM8: Requesting job
+02:32:56.889150 DEBUG: COM8: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:32:56.904985 DEBUG: COM8: job_received - 3a373950144e3a5fc2a1f5cefbfc7fd333c13818,1428db392e3633aeb4952d1ddebfad276e586ebd,8
+02:32:56.920649 DEBUG: COM8: Received: 3a373950144e3a5fc2a1f5cefbfc7fd333c13818
+02:32:56.920649 DEBUG: COM8: Sending job to the board
+02:32:56.935605 DEBUG: COM8: board_job_request - 3a373950144e3a5fc2a1f5cefbfc7fd333c13818,1428db392e3633aeb4952d1ddebfad276e586ebd,8,
+02:32:56.935605 DEBUG: COM8: Reading result from the board
+02:32:57.217175 DEBUG: COM7: board_job_response - 1001001111,110101000010100100000,DUCOID3032313136110A13
+02:32:57.232871 DEBUG: COM7: Result: 1001001111
+02:32:57.232871 DEBUG: COM7: computetime - 1.73802
+02:32:57.248152 DEBUG: COM7: num_res - 591
+02:32:57.248152 DEBUG: COM7: hashrate_t - 340.04
+02:32:57.263813 DEBUG: COM7: client_response_send - 591,340.04,Official AVR Miner 3.5,None,DUCOID3032313136110A13
+02:32:57.295695 DEBUG: COM7: client_response_feedback - GOOD
+02:32:57.295695 DEBUG: COM7: retrieved feedback: GOOD
+02:32:57  avr7  Accepted 1/1 (100%) ∙ 01.7s ∙ 340 H/s @ diff 8 ∙ ping 26ms
+02:32:57.357651 DEBUG: COM7: Requesting job
+02:32:57.373487 DEBUG: COM7: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:32:57.389185 DEBUG: COM7: job_received - a86da318bef92d69dbf3a47427c283f8d0009c82,727cabf543e85fa2403efff5f1f941d64e2a286a,8
+02:32:57.404704 DEBUG: COM7: Received: a86da318bef92d69dbf3a47427c283f8d0009c82
+02:32:57.404704 DEBUG: COM7: Sending job to the board
+02:32:57.420399 DEBUG: COM7: board_job_request - a86da318bef92d69dbf3a47427c283f8d0009c82,727cabf543e85fa2403efff5f1f941d64e2a286a,8,
+02:32:57.420399 DEBUG: COM7: Reading result from the board
+02:32:57.889501 DEBUG: COM8: board_job_response - 100111101,11100011101011101100,DUCOID30323131360B1916
+02:32:57.889501 DEBUG: COM8: Result: 100111101
+02:32:57.904421 DEBUG: COM8: computetime - 0.93259
+02:32:57.920194 DEBUG: COM8: num_res - 317
+02:32:57.920194 DEBUG: COM8: hashrate_t - 339.91
+02:32:57.951520 DEBUG: COM8: client_response_send - 317,339.91,Official AVR Miner 3.5,None,DUCOID30323131360B1916
+02:32:57.982829 DEBUG: COM8: client_response_feedback - GOOD
+02:32:57.998514 DEBUG: COM8: retrieved feedback: GOOD
+02:32:57  avr8  Accepted 3/3 (100%) ∙ 00.9s ∙ 340 H/s @ diff 8 ∙ ping 23ms
+02:32:58.060611 DEBUG: COM8: Requesting job
+02:32:58.060611 DEBUG: COM8: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:32:58.091857 DEBUG: COM8: job_received - 7d3dcfaeaaf64e17528c347ec2011d8765e3210b,e2b221674915f30136b22464f2b2c553107ade1d,8
+02:32:58.091857 DEBUG: COM8: Received: 7d3dcfaeaaf64e17528c347ec2011d8765e3210b
+02:32:58.107467 DEBUG: COM8: Sending job to the board
+02:32:58.107467 DEBUG: COM8: board_job_request - 7d3dcfaeaaf64e17528c347ec2011d8765e3210b,e2b221674915f30136b22464f2b2c553107ade1d,8,
+02:32:58.123096 DEBUG: COM8: Reading result from the board
+02:32:58.388812 DEBUG: COM7: board_job_response - 101000101,11101001011011001100,DUCOID3032313136110A13
+02:32:58.388812 DEBUG: COM7: Result: 101000101
+02:32:58.404724 DEBUG: COM7: computetime - 0.95611
+02:32:58.404724 DEBUG: COM7: num_res - 325
+02:32:58.404724 DEBUG: COM7: hashrate_t - 339.92
+02:32:58.467156 DEBUG: COM7: client_response_send - 325,339.92,Official AVR Miner 3.5,None,DUCOID3032313136110A13
+02:32:58.531476 DEBUG: COM7: client_response_feedback - GOOD
+02:32:58.576469 DEBUG: COM7: retrieved feedback: GOOD
+02:32:58  avr7  Accepted 2/2 (100%) ∙ 01.0s ∙ 340 H/s @ diff 8 ∙ ping 22ms
+02:32:58.967004 DEBUG: COM7: Requesting job
+02:32:59.045194 DEBUG: COM7: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:32:59.139024 DEBUG: COM7: job_received - c9ebf45d3885fa6df5f27e221e50cf58db4c1064,f43916868d9961521919c16ea76dde27230e85a7,8
+02:32:59.185879 DEBUG: COM7: Received: c9ebf45d3885fa6df5f27e221e50cf58db4c1064
+02:32:59.185879 DEBUG: COM7: Sending job to the board
+02:32:59.185879 DEBUG: COM7: board_job_request - c9ebf45d3885fa6df5f27e221e50cf58db4c1064,f43916868d9961521919c16ea76dde27230e85a7,8,
+02:32:59.185879 DEBUG: COM7: Reading result from the board
+02:32:59.701738 DEBUG: COM8: board_job_response - 1000011000,110000000110110010100,DUCOID30323131360B1916
+02:32:59.706915 DEBUG: COM8: Result: 1000011000
+02:32:59.706915 DEBUG: COM8: computetime - 1.57634
+02:32:59.706915 DEBUG: COM8: num_res - 536
+02:32:59.714506 DEBUG: COM8: hashrate_t - 340.03
+02:32:59.722783 DEBUG: COM8: client_response_send - 536,340.03,Official AVR Miner 3.5,None,DUCOID30323131360B1916
+02:32:59.748089 DEBUG: COM8: client_response_feedback - GOOD
+02:32:59.748089 DEBUG: COM8: retrieved feedback: GOOD
+02:32:59  avr8  Accepted 4/4 (100%) ∙ 01.6s ∙ 340 H/s @ diff 8 ∙ ping 22ms
+02:32:59.779336 DEBUG: COM8: Requesting job
+02:32:59.779336 DEBUG: COM8: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:32:59.826380 DEBUG: COM8: job_received - 752f4463ac5b5ffa26da21e1a39989c13d19cf9d,c51dab423e31471f69324d92f3ece56b9dd8687f,8
+02:32:59.826380 DEBUG: COM8: Received: 752f4463ac5b5ffa26da21e1a39989c13d19cf9d
+02:32:59.841929 DEBUG: COM8: Sending job to the board
+02:32:59.841929 DEBUG: COM8: board_job_request - 752f4463ac5b5ffa26da21e1a39989c13d19cf9d,c51dab423e31471f69324d92f3ece56b9dd8687f,8,
+02:32:59.857596 DEBUG: COM8: Reading result from the board
+02:33:00.373550 DEBUG: COM8: board_job_response - 10101100,1111011100111111100,DUCOID30323131360B1916
+02:33:00.389397 DEBUG: COM8: Result: 10101100
+02:33:00.389397 DEBUG: COM8: computetime - 0.50636
+02:33:00.404493 DEBUG: COM8: num_res - 172
+02:33:00.420170 DEBUG: COM8: hashrate_t - 339.68
+02:33:00.435828 DEBUG: COM8: client_response_send - 172,339.68,Official AVR Miner 3.5,None,DUCOID30323131360B1916
+02:33:00.467496 DEBUG: COM8: client_response_feedback - GOOD
+02:33:00.483168 DEBUG: COM8: retrieved feedback: GOOD
+02:33:00  avr8  Accepted 5/5 (100%) ∙ 00.5s ∙ 340 H/s @ diff 8 ∙ ping 21ms
+02:33:00.560717 DEBUG: COM8: Requesting job
+02:33:00.560717 DEBUG: COM8: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:33:00.591996 DEBUG: COM8: job_received - 919ddf9e822bfb5718da3c37b03c89225b852b01,5fe31e6daf77e45b55b1f595867ec492dd43e09b,8
+02:33:00.591996 DEBUG: COM8: Received: 919ddf9e822bfb5718da3c37b03c89225b852b01
+02:33:00.607709 DEBUG: COM8: Sending job to the board
+02:33:00.607709 DEBUG: COM8: board_job_request - 919ddf9e822bfb5718da3c37b03c89225b852b01,5fe31e6daf77e45b55b1f595867ec492dd43e09b,8,
+02:33:00.623201 DEBUG: COM8: Reading result from the board
+02:33:01.092296 DEBUG: COM7: board_job_response - 1010001000,111010001001110100100,DUCOID3032313136110A13
+02:33:01.107986 DEBUG: COM7: Result: 1010001000
+02:33:01.123327 DEBUG: COM7: computetime - 1.90557
+02:33:01.123327 DEBUG: COM7: num_res - 648
+02:33:01.139017 DEBUG: COM7: hashrate_t - 340.06
+02:33:01.139017 DEBUG: COM7: client_response_send - 648,340.06,Official AVR Miner 3.5,None,DUCOID3032313136110A13
+02:33:01.170235 DEBUG: COM7: client_response_feedback - GOOD
+02:33:01.185828 DEBUG: COM7: retrieved feedback: GOOD
+02:33:01  avr7  Accepted 3/3 (100%) ∙ 01.9s ∙ 340 H/s @ diff 8 ∙ ping 20ms
+02:33:01.248113 DEBUG: COM7: Requesting job
+02:33:01.263771 DEBUG: COM7: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:33:01.310710 DEBUG: COM7: job_received - 2e7296fbccee9da584cfbc18158b139e143394c3,cf72d5ffa0537cb253717afab827f588a817d5ef,8
+02:33:01.310710 DEBUG: COM7: Received: 2e7296fbccee9da584cfbc18158b139e143394c3
+02:33:01.326375 DEBUG: COM7: Sending job to the board
+02:33:01.326375 DEBUG: COM7: board_job_request - 2e7296fbccee9da584cfbc18158b139e143394c3,cf72d5ffa0537cb253717afab827f588a817d5ef,8,
+02:33:01.326375 DEBUG: COM7: Reading result from the board
+02:33:02.295515 DEBUG: COM8: board_job_response - 1000110110,110010110011000001100,DUCOID30323131360B1916
+02:33:02.310881 DEBUG: COM8: Result: 1000110110
+02:33:02.326566 DEBUG: COM8: computetime - 1.66452
+02:33:02.326566 DEBUG: COM8: num_res - 566
+02:33:02.342118 DEBUG: COM8: hashrate_t - 340.04
+02:33:02.342118 DEBUG: COM8: client_response_send - 566,340.04,Official AVR Miner 3.5,None,DUCOID30323131360B1916
+02:33:02.373345 DEBUG: COM8: client_response_feedback - GOOD
+02:33:02.389043 DEBUG: COM8: retrieved feedback: GOOD
+02:33:02  avr8  Accepted 6/6 (100%) ∙ 01.7s ∙ 340 H/s @ diff 8 ∙ ping 20ms
+02:33:02.451703 DEBUG: COM8: Requesting job
+02:33:02.482971 DEBUG: COM8: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:33:02.498106 DEBUG: COM8: job_received - 8bfbff5a3c34082a713fce490475b060fd00ba5b,8ed55364c5a75fc3f6d47534fdec1d9e96d4dfb6,8
+02:33:02.513805 DEBUG: COM8: Received: 8bfbff5a3c34082a713fce490475b060fd00ba5b
+02:33:02.513805 DEBUG: COM8: Sending job to the board
+02:33:02.529704 DEBUG: COM8: board_job_request - 8bfbff5a3c34082a713fce490475b060fd00ba5b,8ed55364c5a75fc3f6d47534fdec1d9e96d4dfb6,8,
+02:33:02.529704 DEBUG: COM8: Reading result from the board
+02:33:02.623296 DEBUG: COM7: board_job_response - 110110100,100111001000101010000,DUCOID3032313136110A13
+02:33:02.623296 DEBUG: COM7: Result: 110110100
+02:33:02.639044 DEBUG: COM7: computetime - 1.28238
+02:33:02.639044 DEBUG: COM7: num_res - 436
+02:33:02.654302 DEBUG: COM7: hashrate_t - 339.99
+02:33:02.654302 DEBUG: COM7: client_response_send - 436,339.99,Official AVR Miner 3.5,None,DUCOID3032313136110A13
+02:33:02.685854 DEBUG: COM7: client_response_feedback - GOOD
+02:33:02.701279 DEBUG: COM7: retrieved feedback: GOOD
+02:33:02  avr7  Accepted 4/4 (100%) ∙ 01.3s ∙ 340 H/s @ diff 8 ∙ ping 19ms
+02:33:02.748142 DEBUG: COM7: Requesting job
+02:33:02.779376 DEBUG: COM7: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:33:02.795056 DEBUG: COM7: job_received - 79034ddf760ad7998de5a92ddfa392b3cd127830,555c41e80d04c9e4995ed0e51feccdd62dceb24a,8
+02:33:02.810595 DEBUG: COM7: Received: 79034ddf760ad7998de5a92ddfa392b3cd127830
+02:33:02.810595 DEBUG: COM7: Sending job to the board
+02:33:02.826272 DEBUG: COM7: board_job_request - 79034ddf760ad7998de5a92ddfa392b3cd127830,555c41e80d04c9e4995ed0e51feccdd62dceb24a,8,
+02:33:02.826272 DEBUG: COM7: Reading result from the board
+02:33:02.982945 DEBUG: COM7: board_job_response - 101111,100010001110100100,DUCOID3032313136110A13
+02:33:02.982945 DEBUG: COM7: Result: 101111
+02:33:02.998471 DEBUG: COM7: computetime - 0.1402
+02:33:03.014259 DEBUG: COM7: num_res - 47
+02:33:03.014259 DEBUG: COM7: hashrate_t - 335.24
+02:33:03.029580 DEBUG: COM7: client_response_send - 47,335.24,Official AVR Miner 3.5,None,DUCOID3032313136110A13
+02:33:03.061129 DEBUG: COM7: client_response_feedback - GOOD
+02:33:03.061129 DEBUG: COM7: retrieved feedback: GOOD
+02:33:03  avr7  Accepted 5/5 (100%) ∙ 00.1s ∙ 339 H/s @ diff 8 ∙ ping 19ms
+02:33:03.107507 DEBUG: COM7: Requesting job
+02:33:03.107507 DEBUG: COM7: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:33:03.154394 DEBUG: COM7: job_received - 4d5e635c1f18625e04b21583cec5f72ae33fb07a,280b7f954c7b28d54ee9b1f5158c647ebc37647a,8
+02:33:03.169994 DEBUG: COM7: Received: 4d5e635c1f18625e04b21583cec5f72ae33fb07a
+02:33:03.169994 DEBUG: COM7: Sending job to the board
+02:33:03.185614 DEBUG: COM7: board_job_request - 4d5e635c1f18625e04b21583cec5f72ae33fb07a,280b7f954c7b28d54ee9b1f5158c647ebc37647a,8,
+02:33:03.185614 DEBUG: COM7: Reading result from the board
+02:33:03.545954 DEBUG: COM7: board_job_response - 1110110,1010100110111111000,DUCOID3032313136110A13
+02:33:03.545954 DEBUG: COM7: Result: 1110110
+02:33:03.576220 DEBUG: COM7: computetime - 0.34764
+02:33:03.592274 DEBUG: COM7: num_res - 118
+02:33:03.607941 DEBUG: COM7: hashrate_t - 339.43
+02:33:03.623519 DEBUG: COM7: client_response_send - 118,339.43,Official AVR Miner 3.5,None,DUCOID3032313136110A13
+02:33:03.654748 DEBUG: COM7: client_response_feedback - GOOD
+02:33:03.668286 DEBUG: COM7: retrieved feedback: GOOD
+02:33:03  avr7  Accepted 6/6 (100%) ∙ 00.3s ∙ 339 H/s @ diff 8 ∙ ping 19ms
+02:33:03.716972 DEBUG: COM7: Requesting job
+02:33:03.736568 DEBUG: COM7: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:33:03.757142 DEBUG: COM7: job_received - df232c5a0f15c2e3b081236adb7c6f71846cb7ad,0ac711abb368440b3ea650bfe012d6a136d12082,8
+02:33:03.772791 DEBUG: COM7: Received: df232c5a0f15c2e3b081236adb7c6f71846cb7ad
+02:33:03.779330 DEBUG: COM7: Sending job to the board
+02:33:03.779330 DEBUG: COM7: board_job_request - df232c5a0f15c2e3b081236adb7c6f71846cb7ad,0ac711abb368440b3ea650bfe012d6a136d12082,8,
+02:33:03.779330 DEBUG: COM7: Reading result from the board
+02:33:04.170393 DEBUG: COM8: board_job_response - 1000101000,110001100010101010100,DUCOID30323131360B1916
+02:33:04.170393 DEBUG: COM8: Result: 1000101000
+02:33:04.185688 DEBUG: COM8: computetime - 1.62338
+02:33:04.201399 DEBUG: COM8: num_res - 552
+02:33:04.201399 DEBUG: COM8: hashrate_t - 340.03
+02:33:04.217253 DEBUG: COM8: client_response_send - 552,340.03,Official AVR Miner 3.5,None,DUCOID30323131360B1916
+02:33:04.248379 DEBUG: COM8: client_response_feedback - GOOD
+02:33:04.264066 DEBUG: COM8: retrieved feedback: GOOD
+02:33:04  avr8  Accepted 7/7 (100%) ∙ 01.6s ∙ 339 H/s @ diff 8 ∙ ping 18ms
+02:33:04.326550 DEBUG: COM8: Requesting job
+02:33:04.326550 DEBUG: COM8: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:33:04.373336 DEBUG: COM8: job_received - 55d459de6dea7067eff34942bc545562c7656c76,62e17ff81f8f9ca42d36d458118d26c611f0f91f,8
+02:33:04.373336 DEBUG: COM8: Received: 55d459de6dea7067eff34942bc545562c7656c76
+02:33:04.388997 DEBUG: COM8: Sending job to the board
+02:33:04.388997 DEBUG: COM8: board_job_request - 55d459de6dea7067eff34942bc545562c7656c76,62e17ff81f8f9ca42d36d458118d26c611f0f91f,8,
+02:33:04.404812 DEBUG: COM8: Reading result from the board
+
+
+--------------------------------------------------------
+
+02:36:54.373390 DEBUG: Config file loaded
+
+ ‖ Official Duino-Coin © AVR Miner 3.5 2019-2023
+ ‖ https://github.com/revoxhere/duino-coin
+ ‖ AVR board(s) on port(s): COM7, COM8
+ ‖ Developer donation level: 0
+ ‖ Algorithm: DUCO-S1A ⚙ AVR diff
+02:36:54.435944 DEBUG: Error displaying greeting message: can only concatenate str (not "list") to str
+02:36:54  net0  Searching for the fastest node to connect to
+02:36:55  net0  Retrieved mining node: iowa-pool-1
+02:36:57.342659 02:36:57.342659 DEBUG: Connecting to ('162.212.157.226', 5366)DEBUG: Connecting to ('162.212.157.226', 5366)
+
+02:36:57 02:36:57  Server version  Server version   3.03.0
+
+02:36:57 02:36:57  sys8  net0   AVR mining thread is startingConnected using DUCO-S1A algorithm (COM8)
+ to master Duino-Coin server (v3.0)
+02:36:57.420325 DEBUG: COM8: Sending hash test to the board
+02:36:57.435987 DEBUG: COM8: Value Sent for Testing Speed - ba29a15896fd2d792d5c4b60668bf2b9feebc51d,d0beba883d7e8cd119ea2b0e09b78f60f29e0968,10,
+02:36:57.435987 DEBUG: COM8: encoding - utf-8
+02:36:57 02:36:57.451641 DEBUG: COM8: Reading hash test from the board net0
+ Server message of the day: Welcome to iowa USA node hosted by revox (inst. 1) | NEW: Exchange various cryptocoins fast on fluffyswap.com
+02:36:57  sys7  AVR mining thread is starting using DUCO-S1A algorithm (COM7)
+02:36:57.467209 DEBUG: COM7: Sending hash test to the board
+02:36:57.467209 DEBUG: COM7: Value Sent for Testing Speed - ba29a15896fd2d792d5c4b60668bf2b9feebc51d,d0beba883d7e8cd119ea2b0e09b78f60f29e0968,10,
+02:36:57.467209 DEBUG: COM7: encoding - utf-8
+02:36:57.482870 DEBUG: COM7: Reading hash test from the board
+02:36:57.608013 DEBUG: COM8: received - 110010,100100010111001100,DUCOID30323131360B1916
+02:36:57.608013 DEBUG: COM8: Result: 110010
+02:36:57.623043 DEBUG: COM8: computetime - 0.14894
+02:36:57.623043 DEBUG: COM8: num_res - 50
+02:36:57.638724 02:36:57.638724 DEBUG: COM7: received - 110010,100100010111000100,DUCOID3032313136110A13DEBUG: COM8: hashrate_test - 335.71
+
+02:36:57 02:36:57.638724  sys8 DEBUG: COM7: Result: 110010
+Hashrate test ended with 336 H/s, assigned starting difficulty: AVR02:36:57.654767
+DEBUG: COM7: computetime - 0.14893
+02:36:57.654767 02:36:57.654767 DEBUG: COM8: Requesting jobDEBUG: COM7: num_res - 50
+
+02:36:57.670419 02:36:57.670419 DEBUG: COM8: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3DEBUG: COM7: hashrate_test - 335.73
+
+02:36:57  sys7  Hashrate test ended with 336 H/s, assigned starting difficulty: AVR
+02:36:57.685632 DEBUG: COM7: Requesting job
+02:36:57.701310 DEBUG: COM7: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:36:57.701310 DEBUG: COM8: job_received - 4c0a1ae43bc8c97f1495e2e02052e86e6d121ba3,3dd7ac8a0ce12e85ae62b96bf070d9aa62d37ffd,8
+02:36:57.716864 DEBUG: COM8: Received: 4c0a1ae43bc8c97f1495e2e02052e86e6d121ba3
+02:36:57.716864 DEBUG: COM8: Sending job to the board
+02:36:57.716864 DEBUG: COM8: board_job_request - 4c0a1ae43bc8c97f1495e2e02052e86e6d121ba3,3dd7ac8a0ce12e85ae62b96bf070d9aa62d37ffd,8,
+02:36:57.732551 DEBUG: COM7: job_received - fa79f910b95168b70648566b8b7af0616c8abd06,529de243fb3487b7054288e2bb968775eb4ce36f,8
+02:36:57.732551 DEBUG: COM8: Reading result from the board
+02:36:57.732551 DEBUG: COM7: Received: fa79f910b95168b70648566b8b7af0616c8abd06
+02:36:57.748175 DEBUG: COM7: Sending job to the board
+02:36:57.748175 DEBUG: COM7: board_job_request - fa79f910b95168b70648566b8b7af0616c8abd06,529de243fb3487b7054288e2bb968775eb4ce36f,8,
+02:36:57.763840 DEBUG: COM7: Reading result from the board
+02:36:57.763840 DEBUG: COM7: board_job_response - 1,1100001101100,DUCOID3032313136110A13
+02:36:57.779427 DEBUG: COM7: Result: 1
+02:36:57.779427 DEBUG: COM7: computetime - 0.00625
+02:36:57.795131 DEBUG: COM7: num_res - 1
+02:36:57.795131 DEBUG: COM7: hashrate_t - 160.0
+02:36:57.795131 DEBUG: COM7: client_response_send - 1,160.0,Official AVR Miner 3.5,avr1,DUCOID3032313136110A13
+02:36:57.826456 DEBUG: COM7: client_response_feedback - GOOD
+02:36:57.826456 DEBUG: COM7: retrieved feedback: GOOD
+02:36:57  avr7  Accepted 1/1 (100%) ∙ 00.0s ∙ 160 H/s @ diff 8 ∙ ping 16ms
+02:36:57.889013 DEBUG: COM7: Requesting job
+02:36:57.889013 DEBUG: COM7: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:36:57.920484 DEBUG: COM7: job_received - 806cb108307141cb383bbbaa5e13c56e7bc31b67,a8382c64db568a640c0fff6c926ed22c6a3c45d0,8
+02:36:57.920484 DEBUG: COM7: Received: 806cb108307141cb383bbbaa5e13c56e7bc31b67
+02:36:57.936024 DEBUG: COM7: Sending job to the board
+02:36:57.936024 DEBUG: COM7: board_job_request - 806cb108307141cb383bbbaa5e13c56e7bc31b67,a8382c64db568a640c0fff6c926ed22c6a3c45d0,8,
+02:36:57.936024 DEBUG: COM7: Reading result from the board
+02:36:58.185971 DEBUG: COM7: board_job_response - 1010001,111010011011001100,DUCOID3032313136110A13
+02:36:58.201757 DEBUG: COM7: Result: 1010001
+02:36:58.232839 DEBUG: COM7: computetime - 0.23931
+02:36:58.232839 DEBUG: COM7: num_res - 81
+02:36:58.248523 DEBUG: COM7: hashrate_t - 338.47
+02:36:58.264296 DEBUG: COM7: client_response_send - 81,338.47,Official AVR Miner 3.5,avr1,DUCOID3032313136110A13
+02:36:58.295420 DEBUG: COM7: client_response_feedback - GOOD
+02:36:58.295420 DEBUG: COM7: retrieved feedback: GOOD
+02:36:58  avr7  Accepted 2/2 (100%) ∙ 00.2s ∙ 249 H/s @ diff 8 ∙ ping 16ms
+02:36:58.373158 DEBUG: COM7: Requesting job
+02:36:58.373158 DEBUG: COM7: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:36:58.404560 DEBUG: COM7: job_received - d061379062371660ccee93339beba18eefe8344c,db240c84eeb091da94787eb793c3844607352457,8
+02:36:58.404560 DEBUG: COM7: Received: d061379062371660ccee93339beba18eefe8344c
+02:36:58.420235 DEBUG: COM7: Sending job to the board
+02:36:58.420235 DEBUG: COM7: board_job_request - d061379062371660ccee93339beba18eefe8344c,db240c84eeb091da94787eb793c3844607352457,8,
+02:36:58.420235 DEBUG: COM7: Reading result from the board
+02:36:59.311017 DEBUG: COM8: board_job_response - 1000010100,101111101111110100100,DUCOID30323131360B1916
+02:36:59.311017 DEBUG: COM8: Result: 1000010100
+02:36:59.326577 DEBUG: COM8: computetime - 1.56458
+02:36:59.342158 DEBUG: COM8: num_res - 532
+02:36:59.342158 DEBUG: COM8: hashrate_t - 340.03
+02:36:59.342158 DEBUG: COM8: client_response_send - 532,340.03,Official AVR Miner 3.5,avr2,DUCOID30323131360B1916
+02:36:59.373458 DEBUG: COM8: client_response_feedback - GOOD
+02:36:59.389213 DEBUG: COM8: retrieved feedback: GOOD
+02:36:59  avr8  Accepted 1/1 (100%) ∙ 01.6s ∙ 280 H/s @ diff 8 ∙ ping 16ms
+02:36:59.451684 DEBUG: COM8: Requesting job
+02:36:59.451684 DEBUG: COM8: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:36:59.482854 DEBUG: COM8: job_received - 262f70b0c6e91db6033072f88662c4e45b931f73,0d079f4c56d0165922e58c3dee90115a63f4aa96,8
+02:36:59.498451 DEBUG: COM8: Received: 262f70b0c6e91db6033072f88662c4e45b931f73
+02:36:59.498451 DEBUG: COM8: Sending job to the board
+02:36:59.514100 DEBUG: COM8: board_job_request - 262f70b0c6e91db6033072f88662c4e45b931f73,0d079f4c56d0165922e58c3dee90115a63f4aa96,8,
+02:36:59.514100 DEBUG: COM8: Reading result from the board
+02:36:59.779596 DEBUG: COM8: board_job_response - 1010111,111110101100100100,DUCOID30323131360B1916
+02:36:59.795377 DEBUG: COM8: Result: 1010111
+02:36:59.795377 DEBUG: COM8: computetime - 0.2568
+02:36:59.795377 DEBUG: COM8: num_res - 87
+02:36:59.810948 DEBUG: COM8: hashrate_t - 338.79
+02:36:59.810948 DEBUG: COM8: client_response_send - 87,338.79,Official AVR Miner 3.5,avr2,DUCOID30323131360B1916
+02:36:59.842154 DEBUG: COM8: client_response_feedback - GOOD
+02:36:59.857923 DEBUG: COM8: retrieved feedback: GOOD
+02:36:59  avr8  Accepted 2/2 (100%) ∙ 00.3s ∙ 294 H/s @ diff 8 ∙ ping 16ms
+02:36:59.904802 DEBUG: COM8: Requesting job
+02:36:59.920558 DEBUG: COM8: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:36:59.951933 DEBUG: COM8: job_received - 8b547401d61a192f16a33e3d777c7ea27d221f21,24c1d30987c91448cd9b589a5986952ef72369a2,8
+02:36:59.951933 DEBUG: COM8: Received: 8b547401d61a192f16a33e3d777c7ea27d221f21
+02:36:59.967016 DEBUG: COM8: Sending job to the board
+02:36:59.967016 DEBUG: COM8: board_job_request - 8b547401d61a192f16a33e3d777c7ea27d221f21,24c1d30987c91448cd9b589a5986952ef72369a2,8,
+02:36:59.967016 DEBUG: COM8: Reading result from the board
+02:37:00.186016 DEBUG: COM7: board_job_response - 1001010101,110101100100111111100,DUCOID3032313136110A13
+02:37:00.201697 DEBUG: COM7: Result: 1001010101
+02:37:00.217024 DEBUG: COM7: computetime - 1.75564
+02:37:00.217024 DEBUG: COM7: num_res - 597
+02:37:00.232813 DEBUG: COM7: hashrate_t - 340.05
+02:37:00.232813 DEBUG: COM7: client_response_send - 597,340.05,Official AVR Miner 3.5,avr1,DUCOID3032313136110A13
+02:37:00.279556 DEBUG: COM7: client_response_feedback - GOOD
+02:37:00.279556 DEBUG: COM7: retrieved feedback: GOOD
+02:37:00  avr7  Accepted 3/3 (100%) ∙ 01.8s ∙ 303 H/s @ diff 8 ∙ ping 19ms
+02:37:00.357961 DEBUG: COM7: Requesting job
+02:37:00.357961 DEBUG: COM7: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:37:00.389130 DEBUG: COM7: job_received - 5c7376ac331c26a982565daa2cc09e6baa0c40af,1356172b84493ac56fd01a8fbb1bdfbf7831e426,8
+02:37:00.389130 DEBUG: COM7: Received: 5c7376ac331c26a982565daa2cc09e6baa0c40af
+02:37:00.389130 DEBUG: COM7: Sending job to the board
+02:37:00.404664 DEBUG: COM7: board_job_request - 5c7376ac331c26a982565daa2cc09e6baa0c40af,1356172b84493ac56fd01a8fbb1bdfbf7831e426,8,
+02:37:00.404664 DEBUG: COM7: Reading result from the board
+02:37:01.951882 DEBUG: COM8: board_job_response - 1010011111,111100001101110110000,DUCOID30323131360B1916
+02:37:01.967002 DEBUG: COM8: Result: 1010011111
+02:37:01.982669 DEBUG: COM8: computetime - 1.97317
+02:37:01.982669 DEBUG: COM8: num_res - 671
+02:37:01.998304 DEBUG: COM8: hashrate_t - 340.06
+02:37:01.998304 DEBUG: COM8: client_response_send - 671,340.06,Official AVR Miner 3.5,avr2,DUCOID30323131360B1916
+02:37:02.029655 DEBUG: COM8: client_response_feedback - GOOD
+02:37:02.045364 DEBUG: COM8: retrieved feedback: GOOD
+02:37:02  avr8  Accepted 3/3 (100%) ∙ 02.0s ∙ 339 H/s @ diff 8 ∙ ping 18ms
+02:37:02.107766 DEBUG: COM8: Requesting job
+02:37:02.107766 DEBUG: COM8: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:37:02.139109 DEBUG: COM8: job_received - b96ea52654e2abcfb5d836266eb5a90b8185ff17,8761b51ab50884cafc47dd12bd1e69fd4a75e886,8
+02:37:02.139109 DEBUG: COM8: Received: b96ea52654e2abcfb5d836266eb5a90b8185ff17
+02:37:02.154456 DEBUG: COM8: Sending job to the board
+02:37:02.154456 DEBUG: COM8: board_job_request - b96ea52654e2abcfb5d836266eb5a90b8185ff17,8761b51ab50884cafc47dd12bd1e69fd4a75e886,8,
+02:37:02.170158 DEBUG: COM8: Reading result from the board
+02:37:02.295999 DEBUG: COM7: board_job_response - 1010000001,111001100001101001100,DUCOID3032313136110A13
+02:37:02.311027 DEBUG: COM7: Result: 1010000001
+02:37:02.326820 DEBUG: COM7: computetime - 1.885
+02:37:02.326820 DEBUG: COM7: num_res - 641
+02:37:02.342276 DEBUG: COM7: hashrate_t - 340.05
+02:37:02.342276 DEBUG: COM7: client_response_send - 641,340.05,Official AVR Miner 3.5,avr1,DUCOID3032313136110A13
+02:37:02.373559 DEBUG: COM7: client_response_feedback - GOOD
+02:37:02.373559 DEBUG: COM7: retrieved feedback: GOOD
+02:37:02  avr7  Accepted 4/4 (100%) ∙ 01.9s ∙ 340 H/s @ diff 8 ∙ ping 18ms
+02:37:02.451364 DEBUG: COM7: Requesting job
+02:37:02.451364 DEBUG: COM7: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:37:02.483026 DEBUG: COM7: job_received - 6cbd4e352f7b97ed8ff3476aa631e986e7797270,ddfd323839bbcdef80612ca9e69b2cb602aa05ab,8
+02:37:02.498114 DEBUG: COM7: Received: 6cbd4e352f7b97ed8ff3476aa631e986e7797270
+02:37:02.498114 DEBUG: COM7: Sending job to the board
+02:37:02.498114 DEBUG: COM7: board_job_request - 6cbd4e352f7b97ed8ff3476aa631e986e7797270,ddfd323839bbcdef80612ca9e69b2cb602aa05ab,8,
+02:37:02.513784 DEBUG: COM7: Reading result from the board
+02:37:03.592352 DEBUG: COM8: board_job_response - 111100010,101011010000110000100,DUCOID30323131360B1916
+02:37:03.607880 DEBUG: COM8: Result: 111100010
+02:37:03.607880 DEBUG: COM8: computetime - 1.4176
+02:37:03.623577 DEBUG: COM8: num_res - 482
+02:37:03.623577 DEBUG: COM8: hashrate_t - 340.01
+02:37:03.639328 DEBUG: COM8: client_response_send - 482,340.01,Official AVR Miner 3.5,avr2,DUCOID30323131360B1916
+02:37:03.670174 DEBUG: COM8: client_response_feedback - GOOD
+02:37:03.670174 DEBUG: COM8: retrieved feedback: GOOD
+02:37:03  avr8  Accepted 4/4 (100%) ∙ 01.4s ∙ 340 H/s @ diff 8 ∙ ping 19ms
+02:37:03.701366 DEBUG: COM7: board_job_response - 110001111,100011110100001110100,DUCOID3032313136110A13
+02:37:03.701366 DEBUG: COM7: Result: 110001111
+02:37:03.701366 DEBUG: COM7: computetime - 1.17362
+02:37:03.701366 DEBUG: COM7: num_res - 399
+02:37:03.725177 DEBUG: COM7: hashrate_t - 339.97
+02:37:03.730952 DEBUG: COM7: client_response_send - 399,339.97,Official AVR Miner 3.5,avr1,DUCOID3032313136110A13
+02:37:03.733586 DEBUG: COM8: Requesting job
+02:37:03.733586 DEBUG: COM8: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:37:03.763927 DEBUG: COM7: client_response_feedback - GOOD
+02:37:03.763927 DEBUG: COM7: retrieved feedback: GOOD
+02:37:03 02:37:03.763927 DEBUG: COM8: job_received - 1c92a450e649f2b0afe4762ee237c09df08d9e59,1fa947069fa57a16078229abe5b94e6e43a84b4e,8 avr7
+ Accepted 5/502:37:03.779484 DEBUG: COM8: Received: 1c92a450e649f2b0afe4762ee237c09df08d9e59 (100%)
+ ∙ 01.2s ∙ 340 H/s02:37:03.779484  @ diff 8 ∙ DEBUG: COM8: Sending job to the boardping 20ms
+
+02:37:03.779484 DEBUG: COM8: board_job_request - 1c92a450e649f2b0afe4762ee237c09df08d9e59,1fa947069fa57a16078229abe5b94e6e43a84b4e,8,
+02:37:03.795170 DEBUG: COM8: Reading result from the board
+02:37:03.810753 DEBUG: COM7: Requesting job
+02:37:03.810753 DEBUG: COM7: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:37:03.842001 DEBUG: COM7: job_received - 13b3be660ad8b95f3aae5144745b26941c281d9a,929e4c0f6b384f47e2c48562c6c90e86812a2635,8
+02:37:03.857695 DEBUG: COM7: Received: 13b3be660ad8b95f3aae5144745b26941c281d9a
+02:37:03.857695 DEBUG: COM7: Sending job to the board
+02:37:03.873274 DEBUG: COM7: board_job_request - 13b3be660ad8b95f3aae5144745b26941c281d9a,929e4c0f6b384f47e2c48562c6c90e86812a2635,8,
+02:37:03.873274 DEBUG: COM7: Reading result from the board
+02:37:04.154629 DEBUG: COM7: board_job_response - 1011101,1000010111101110100,DUCOID3032313136110A13
+02:37:04.170357 DEBUG: COM7: Result: 1011101
+02:37:04.185674 DEBUG: COM7: computetime - 0.27429
+02:37:04.185674 DEBUG: COM7: num_res - 93
+02:37:04.201422 DEBUG: COM7: hashrate_t - 339.06
+02:37:04.201422 DEBUG: COM7: client_response_send - 93,339.06,Official AVR Miner 3.5,avr1,DUCOID3032313136110A13
+02:37:04.232724 DEBUG: COM7: client_response_feedback - GOOD
+02:37:04.248244 DEBUG: COM7: retrieved feedback: GOOD
+02:37:04  avr7  Accepted 6/6 (100%) ∙ 00.3s ∙ 340 H/s @ diff 8 ∙ ping 20ms
+02:37:04.310753 DEBUG: COM7: Requesting job
+02:37:04.310753 DEBUG: COM7: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:37:04.342117 DEBUG: COM7: job_received - b5cd5b56a2da544eacc9156192c5ddfc7591ac65,d953f8a4794b1f3f65da5f67bed811fac81c3761,8
+02:37:04.357821 DEBUG: COM7: Received: b5cd5b56a2da544eacc9156192c5ddfc7591ac65
+02:37:04.357821 DEBUG: COM7: Sending job to the board
+02:37:04.357821 DEBUG: COM7: board_job_request - b5cd5b56a2da544eacc9156192c5ddfc7591ac65,d953f8a4794b1f3f65da5f67bed811fac81c3761,8,
+02:37:04.373518 DEBUG: COM7: Reading result from the board
+02:37:04.717097 DEBUG: COM8: board_job_response - 100111001,11100000110100000000,DUCOID30323131360B1916
+02:37:04.731329 DEBUG: COM8: Result: 100111001
+02:37:04.738573 DEBUG: COM8: computetime - 0.92083
+02:37:04.738573 DEBUG: COM8: num_res - 313
+02:37:04.748177 DEBUG: COM8: hashrate_t - 339.91
+02:37:04.763871 DEBUG: COM8: client_response_send - 313,339.91,Official AVR Miner 3.5,avr2,DUCOID30323131360B1916
+02:37:04.795509 DEBUG: COM8: client_response_feedback - GOOD
+02:37:04.795509 DEBUG: COM8: retrieved feedback: GOOD
+02:37:04  avr8  Accepted 5/5 (100%) ∙ 00.9s ∙ 340 H/s @ diff 8 ∙ ping 22ms
+02:37:04.857963 02:37:04.857963 DEBUG: COM8: Requesting jobDEBUG: COM7: board_job_response - 10100101,1110110100110100000,DUCOID3032313136110A13
+
+02:37:04.873493 02:37:04.873493 DEBUG: COM8: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3DEBUG: COM7: Result: 10100101
+
+02:37:04.889150 DEBUG: COM7: computetime - 0.48579
+02:37:04.889150 DEBUG: COM7: num_res - 165
+02:37:04.889150 DEBUG: COM7: hashrate_t - 339.65
+02:37:04.904709 DEBUG: COM7: client_response_send - 165,339.65,Official AVR Miner 3.5,avr1,DUCOID3032313136110A13
+02:37:04.904709 DEBUG: COM8: job_received - 58f152e99c06ac135b573b989cd95d3effb95099,b52aa2cf1f7534c18e66e1b81d2cfd4de6cf2167,8
+02:37:04.920369 DEBUG: COM8: Received: 58f152e99c06ac135b573b989cd95d3effb95099
+02:37:04.920369 DEBUG: COM8: Sending job to the board
+02:37:04.920369 DEBUG: COM8: board_job_request - 58f152e99c06ac135b573b989cd95d3effb95099,b52aa2cf1f7534c18e66e1b81d2cfd4de6cf2167,8,
+02:37:04.920369 02:37:04.920369 DEBUG: COM7: client_response_feedback - GOODDEBUG: COM8: Reading result from the board
+
+02:37:04.935916 DEBUG: COM7: retrieved feedback: GOOD
+02:37:04  avr7  Accepted 7/7 (100%) ∙ 00.5s ∙ 340 H/s @ diff 8 ∙ ping 22ms
+02:37:04.967138 DEBUG: COM7: Requesting job
+02:37:04.982803 DEBUG: COM7: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:37:05.014195 DEBUG: COM7: job_received - 1d5618be8e96fccd1fd4464270ea6a9a0cf47edc,ea1a1d4c1f62fcd8fbc9b21c73bda059b752ac57,8
+02:37:05.014195 DEBUG: COM7: Received: 1d5618be8e96fccd1fd4464270ea6a9a0cf47edc
+02:37:05.029531 DEBUG: COM7: Sending job to the board
+02:37:05.029531 DEBUG: COM7: board_job_request - 1d5618be8e96fccd1fd4464270ea6a9a0cf47edc,ea1a1d4c1f62fcd8fbc9b21c73bda059b752ac57,8,
+02:37:05.029531 DEBUG: COM7: Reading result from the board
+02:37:05.123544 DEBUG: COM7: board_job_response - 11010,10011010001110000,DUCOID3032313136110A13
+02:37:05.123544 DEBUG: COM7: Result: 11010
+02:37:05.139294 DEBUG: COM7: computetime - 0.07896
+02:37:05.139294 DEBUG: COM7: num_res - 26
+02:37:05.154479 DEBUG: COM7: hashrate_t - 329.28
+02:37:05.154479 DEBUG: COM7: client_response_send - 26,329.28,Official AVR Miner 3.5,avr1,DUCOID3032313136110A13
+02:37:05.185862 DEBUG: COM7: client_response_feedback - GOOD
+02:37:05.201530 DEBUG: COM7: retrieved feedback: GOOD
+02:37:05  avr7  Accepted 8/8 (100%) ∙ 00.1s ∙ 338 H/s @ diff 8 ∙ ping 22ms
+02:37:05.248422 DEBUG: COM7: Requesting job
+02:37:05.264083 DEBUG: COM7: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:37:05.295643 DEBUG: COM7: job_received - d945e6c605ffefcc4e60c75364974ad6f7ab9207,7069252057deb18ec21820027134b34596f42498,8
+02:37:05.310772 DEBUG: COM7: Received: d945e6c605ffefcc4e60c75364974ad6f7ab9207
+02:37:05.310772 DEBUG: COM7: Sending job to the board
+02:37:05.326420 02:37:05.326420 DEBUG: COM8: board_job_response - 10000100,1011110111010101100,DUCOID30323131360B1916DEBUG: COM7: board_job_request - d945e6c605ffefcc4e60c75364974ad6f7ab9207,7069252057deb18ec21820027134b34596f42498,8,
+
+02:37:05.326420 02:37:05.341951 DEBUG: COM8: Result: 10000100DEBUG: COM7: Reading result from the board
+
+02:37:05.357657 DEBUG: COM8: computetime - 0.38878
+02:37:05.373372 DEBUG: COM8: num_res - 132
+02:37:05.389038 DEBUG: COM8: hashrate_t - 339.52
+02:37:05.404569 DEBUG: COM8: client_response_send - 132,339.52,Official AVR Miner 3.5,avr2,DUCOID30323131360B1916
+02:37:05.435825 DEBUG: COM8: client_response_feedback - GOOD
+02:37:05.435825 DEBUG: COM8: retrieved feedback: GOOD
+02:37:05  avr8  Accepted 6/6 (100%) ∙ 00.4s ∙ 337 H/s @ diff 8 ∙ ping 23ms
+02:37:05.482721 DEBUG: COM8: Requesting job
+02:37:05.482721 DEBUG: COM8: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:37:05.514230 DEBUG: COM8: job_received - 934b4485f20207f8b9450fcacc4799e32e7055cb,3a66bee86c34c6b87e2851e3392bf8333eef54ea,8
+02:37:05.529804 DEBUG: COM8: Received: 934b4485f20207f8b9450fcacc4799e32e7055cb
+02:37:05.545556 DEBUG: COM8: Sending job to the board
+02:37:05.545556 DEBUG: COM8: board_job_request - 934b4485f20207f8b9450fcacc4799e32e7055cb,3a66bee86c34c6b87e2851e3392bf8333eef54ea,8,
+02:37:05.545556 DEBUG: COM8: Reading result from the board
+02:37:05.920643 DEBUG: COM8: board_job_response - 1111100,1011001001011010100,DUCOID30323131360B1916
+02:37:05.920643 DEBUG: COM8: Result: 1111100
+02:37:05.936097 DEBUG: COM8: computetime - 0.36527
+02:37:05.936097 DEBUG: COM8: num_res - 124
+02:37:05.936097 DEBUG: COM8: hashrate_t - 339.47
+02:37:05.951856 DEBUG: COM8: client_response_send - 124,339.47,Official AVR Miner 3.5,avr2,DUCOID30323131360B1916
+02:37:05.982746 DEBUG: COM8: client_response_feedback - GOOD
+02:37:05.982746 DEBUG: COM8: retrieved feedback: GOOD
+02:37:05  avr8  Accepted 7/7 (100%) ∙ 00.4s ∙ 338 H/s @ diff 8 ∙ ping 23ms
+02:37:06.045104 DEBUG: COM8: Requesting job
+02:37:06.060721 DEBUG: COM8: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:37:06.092496 DEBUG: COM8: job_received - a5077b370a4e0c6d639fb490d6e49a171c9f08b4,448316b2b8723887e1b8b708e4d979dcf2bf2662,8
+02:37:06.092496 DEBUG: COM8: Received: a5077b370a4e0c6d639fb490d6e49a171c9f08b4
+02:37:06.108156 DEBUG: COM8: Sending job to the board
+02:37:06.108156 DEBUG: COM8: board_job_request - a5077b370a4e0c6d639fb490d6e49a171c9f08b4,448316b2b8723887e1b8b708e4d979dcf2bf2662,8,
+02:37:06.123264 DEBUG: COM8: Reading result from the board
+02:37:06.873448 DEBUG: COM7: board_job_response - 1000001011,101110111100001000100,DUCOID3032313136110A13
+02:37:06.889195 DEBUG: COM7: Result: 1000001011
+02:37:06.904771 DEBUG: COM7: computetime - 1.53812
+02:37:06.904771 DEBUG: COM7: num_res - 523
+02:37:06.920543 DEBUG: COM7: hashrate_t - 340.03
+02:37:06.935583 DEBUG: COM7: client_response_send - 523,340.03,Official AVR Miner 3.5,avr1,DUCOID3032313136110A13
+02:37:06.951321 DEBUG: COM7: client_response_feedback - GOOD
+02:37:06.966942 DEBUG: COM7: retrieved feedback: GOOD
+02:37:06  avr7  Accepted 9/9 (100%) ∙ 01.5s ∙ 338 H/s @ diff 8 ∙ ping 23ms
+02:37:07.029597 DEBUG: COM7: Requesting job
+02:37:07.029597 DEBUG: COM7: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:37:07.061173 DEBUG: COM7: job_received - 774d481158800255bb3946dc8874e1c7d1399493,27039b38424db280782cbcba7c30f0f0ddbd9e0f,8
+02:37:07.076879 DEBUG: COM7: Received: 774d481158800255bb3946dc8874e1c7d1399493
+02:37:07.076879 DEBUG: COM7: Sending job to the board
+02:37:07.092105 DEBUG: COM7: board_job_request - 774d481158800255bb3946dc8874e1c7d1399493,27039b38424db280782cbcba7c30f0f0ddbd9e0f,8,
+02:37:07.092105 DEBUG: COM7: Reading result from the board
+02:37:07.264529 DEBUG: COM8: board_job_response - 110000100,100010110101000101000,DUCOID30323131360B1916
+02:37:07.264529 DEBUG: COM8: Result: 110000100
+02:37:07.279821 DEBUG: COM8: computetime - 1.14129
+02:37:07.279821 DEBUG: COM8: num_res - 388
+02:37:07.295487 DEBUG: COM8: hashrate_t - 339.97
+02:37:07.295487 DEBUG: COM8: client_response_send - 388,339.97,Official AVR Miner 3.5,avr2,DUCOID30323131360B1916
+02:37:07.327066 DEBUG: COM8: client_response_feedback - GOOD
+02:37:07.342202 DEBUG: COM8: retrieved feedback: GOOD
+02:37:07  avr8  Accepted 8/8 (100%) ∙ 01.1s ∙ 338 H/s @ diff 8 ∙ ping 23ms
+02:37:07.404812 DEBUG: COM8: Requesting job
+02:37:07.420480 DEBUG: COM8: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:37:07.436046 DEBUG: COM8: job_received - 038b562051589a8990f5eeb35fa91595da19acfb,c387414ef754f40daf2c4a94ea7b00c724364360,8
+02:37:07.451715 DEBUG: COM8: Received: 038b562051589a8990f5eeb35fa91595da19acfb
+02:37:07.451715 DEBUG: COM8: Sending job to the board
+02:37:07.466817 DEBUG: COM8: board_job_request - 038b562051589a8990f5eeb35fa91595da19acfb,c387414ef754f40daf2c4a94ea7b00c724364360,8,
+02:37:07.466817 DEBUG: COM8: Reading result from the board
+02:37:08.201662 DEBUG: COM7: board_job_response - 101111001,100001110101111100000,DUCOID3032313136110A13
+02:37:08.217201 DEBUG: COM7: Result: 101111001
+02:37:08.217201 DEBUG: COM7: computetime - 1.10896
+02:37:08.217201 DEBUG: COM7: num_res - 377
+02:37:08.217201 DEBUG: COM7: hashrate_t - 339.96
+02:37:08.232896 DEBUG: COM7: client_response_send - 377,339.96,Official AVR Miner 3.5,avr1,DUCOID3032313136110A13
+02:37:08.248423 DEBUG: COM7: client_response_feedback - GOOD
+02:37:08.264087 DEBUG: COM7: retrieved feedback: GOOD
+02:37:08  avr7  Accepted 10/10 (100%) ∙ 01.1s ∙ 340 H/s @ diff 8 ∙ ping 22ms
+02:37:08.295298 DEBUG: COM7: Requesting job
+02:37:08.310848 DEBUG: COM7: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:37:08.342060 DEBUG: COM7: job_received - f507268e69e5ae5c4ce5d95ff7b249aee88b1b37,b273017f79f2fdeb723f3c9b3a2e787445191e73,8
+02:37:08.342060 DEBUG: COM7: Received: f507268e69e5ae5c4ce5d95ff7b249aee88b1b37
+02:37:08.357740 DEBUG: COM7: Sending job to the board
+02:37:08.357740 DEBUG: COM7: board_job_request - f507268e69e5ae5c4ce5d95ff7b249aee88b1b37,b273017f79f2fdeb723f3c9b3a2e787445191e73,8,
+02:37:08.357740 DEBUG: COM7: Reading result from the board
+02:37:09.154558 DEBUG: COM8: board_job_response - 1000111101,110011011011001110000,DUCOID30323131360B1916
+02:37:09.154558 DEBUG: COM8: Result: 1000111101
+02:37:09.170155 DEBUG: COM8: computetime - 1.6851
+02:37:09.170155 DEBUG: COM8: num_res - 573
+02:37:09.170155 DEBUG: COM8: hashrate_t - 340.04
+02:37:09.185683 DEBUG: COM8: client_response_send - 573,340.04,Official AVR Miner 3.5,avr2,DUCOID30323131360B1916
+02:37:09.216937 DEBUG: COM8: client_response_feedback - GOOD
+02:37:09.216937 DEBUG: COM8: retrieved feedback: GOOD
+02:37:09  avr8  Accepted 9/9 (100%) ∙ 01.7s ∙ 340 H/s @ diff 8 ∙ ping 22ms
+02:37:09.263859 DEBUG: COM8: Requesting job
+02:37:09.279428 DEBUG: COM8: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:37:09.295131 DEBUG: COM8: job_received - 15173c325c41ae3f8a2a68ac9d74de934c29691b,1bc82f38659705cee284c9532318740691fccaf7,8
+02:37:09.310775 DEBUG: COM8: Received: 15173c325c41ae3f8a2a68ac9d74de934c29691b
+02:37:09.310775 DEBUG: COM8: Sending job to the board
+02:37:09.326488 DEBUG: COM8: board_job_request - 15173c325c41ae3f8a2a68ac9d74de934c29691b,1bc82f38659705cee284c9532318740691fccaf7,8,
+02:37:09.326488 DEBUG: COM8: Reading result from the board
+02:37:10.608010 DEBUG: COM7: board_job_response - 1011111011,1000100011110000101000,DUCOID3032313136110A13
+02:37:10.612497 DEBUG: COM7: Result: 1011111011
+02:37:10.623568 DEBUG: COM7: computetime - 2.24362
+02:37:10.623568 DEBUG: COM7: num_res - 763
+02:37:10.623568 DEBUG: COM7: hashrate_t - 340.08
+02:37:10.639241 DEBUG: COM7: client_response_send - 763,340.08,Official AVR Miner 3.5,avr1,DUCOID3032313136110A13
+02:37:10.654821 DEBUG: COM7: client_response_feedback - GOOD
+02:37:10.670508 DEBUG: COM7: retrieved feedback: GOOD
+02:37:10  avr7  Accepted 11/11 (100%) ∙ 02.2s ∙ 340 H/s @ diff 8 ∙ ping 22ms
+02:37:10.716912 DEBUG: COM7: Requesting job
+02:37:10.716912 DEBUG: COM7: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:37:10.748298 DEBUG: COM7: job_received - e9bd930df72904b13f091a12177ac61f31780fdb,1707e629e36004a722eb1e587392678a9a6c14d5,8
+02:37:10.763980 DEBUG: COM7: Received: e9bd930df72904b13f091a12177ac61f31780fdb
+02:37:10.763980 DEBUG: COM7: Sending job to the board
+02:37:10.779547 DEBUG: COM7: board_job_request - e9bd930df72904b13f091a12177ac61f31780fdb,1707e629e36004a722eb1e587392678a9a6c14d5,8,
+02:37:10.779547 DEBUG: COM7: Reading result from the board
+02:37:11.447112 DEBUG: COM8: board_job_response - 1011010001,1000000101100111010100,DUCOID30323131360B1916
+02:37:11.466917 DEBUG: COM8: Result: 1011010001
+02:37:11.466917 DEBUG: COM8: computetime - 2.12015
+02:37:11.482574 DEBUG: COM8: num_res - 721
+02:37:11.482574 DEBUG: COM8: hashrate_t - 340.07
+02:37:11.498137 DEBUG: COM8: client_response_send - 721,340.07,Official AVR Miner 3.5,avr2,DUCOID30323131360B1916
+02:37:11.529624 DEBUG: COM8: client_response_feedback - GOOD
+02:37:11.529624 DEBUG: COM8: retrieved feedback: GOOD
+02:37:11  avr8  Accepted 10/10 (100%) ∙ 02.1s ∙ 340 H/s @ diff 8 ∙ ping 20ms
+02:37:11.592182 DEBUG: COM8: Requesting job
+02:37:11.607843 DEBUG: COM8: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:37:11.623463 DEBUG: COM8: job_received - b804f2535b882daf922053d668178b6eedef7547,d68137854f14fa94eccbc74e6fde4054264c2232,8
+02:37:11.639127 DEBUG: COM8: Received: b804f2535b882daf922053d668178b6eedef7547
+02:37:11.639127 DEBUG: COM8: Sending job to the board
+02:37:11.639127 DEBUG: COM8: board_job_request - b804f2535b882daf922053d668178b6eedef7547,d68137854f14fa94eccbc74e6fde4054264c2232,8,
+02:37:11.654706 DEBUG: COM8: Reading result from the board
+02:37:12.967122 DEBUG: COM7: board_job_response - 1011100110,1000010100101100000000,DUCOID3032313136110A13
+02:37:12.967122 DEBUG: COM7: Result: 1011100110
+02:37:12.967122 DEBUG: COM7: computetime - 2.18189
+02:37:12.982873 DEBUG: COM7: num_res - 742
+02:37:12.982873 DEBUG: COM7: hashrate_t - 340.07
+02:37:12.982873 DEBUG: COM7: client_response_send - 742,340.07,Official AVR Miner 3.5,avr1,DUCOID3032313136110A13
+02:37:13.014119 DEBUG: COM7: client_response_feedback - GOOD
+02:37:13.014119 DEBUG: COM7: retrieved feedback: GOOD
+02:37:13  avr7  Accepted 12/12 (100%) ∙ 02.2s ∙ 340 H/s @ diff 8 ∙ ping 22ms
+02:37:13.060743 DEBUG: COM7: Requesting job
+02:37:13.060743 DEBUG: COM7: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:37:13.091997 DEBUG: COM7: job_received - 01b2091e0a13e5c8c31df1eea1e3b6aa60c67d64,fd2dd14800d677cd3e8ac893b799b0e6132e4166,8
+02:37:13.091997 DEBUG: COM7: Received: 01b2091e0a13e5c8c31df1eea1e3b6aa60c67d64
+02:37:13.107682 DEBUG: COM7: Sending job to the board
+02:37:13.107682 DEBUG: COM7: board_job_request - 01b2091e0a13e5c8c31df1eea1e3b6aa60c67d64,fd2dd14800d677cd3e8ac893b799b0e6132e4166,8,
+02:37:13.107682 DEBUG: COM7: Reading result from the board
+02:37:13.920293 DEBUG: COM8: board_job_response - 1100000011,1000101001011111110100,DUCOID30323131360B1916
+02:37:13.920293 DEBUG: COM8: Result: 1100000011
+02:37:13.920293 DEBUG: COM8: computetime - 2.26712
+02:37:13.920293 DEBUG: COM8: num_res - 771
+02:37:13.920293 DEBUG: COM8: hashrate_t - 340.08
+02:37:13.920293 DEBUG: COM8: client_response_send - 771,340.08,Official AVR Miner 3.5,avr2,DUCOID30323131360B1916
+02:37:13.966895 DEBUG: COM8: client_response_feedback - GOOD
+02:37:13.966895 DEBUG: COM8: retrieved feedback: GOOD
+02:37:13  avr8  Accepted 11/11 (100%) ∙ 02.3s ∙ 340 H/s @ diff 8 ∙ ping 22ms
+02:37:14.013828 DEBUG: COM8: Requesting job
+02:37:14.029382 DEBUG: COM8: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:37:14.060651 DEBUG: COM8: job_received - f4696fbbde4becdb2e98bbadaf1b8d448bfecb6c,5be97834db3a1b59003f82bc18c8c18b0a53f317,8
+02:37:14.060651 DEBUG: COM8: Received: f4696fbbde4becdb2e98bbadaf1b8d448bfecb6c
+02:37:14.060651 DEBUG: COM8: Sending job to the board
+02:37:14.076316 DEBUG: COM8: board_job_request - f4696fbbde4becdb2e98bbadaf1b8d448bfecb6c,5be97834db3a1b59003f82bc18c8c18b0a53f317,8,
+02:37:14.076316 DEBUG: COM8: Reading result from the board
+02:37:14.326298 DEBUG: COM8: board_job_response - 1010001,111010011011011000,DUCOID30323131360B1916
+02:37:14.326298 DEBUG: COM8: Result: 1010001
+02:37:14.326298 DEBUG: COM8: computetime - 0.23932
+02:37:14.326298 DEBUG: COM8: num_res - 81
+02:37:14.342041 DEBUG: COM8: hashrate_t - 338.46
+02:37:14.342041 DEBUG: COM8: client_response_send - 81,338.46,Official AVR Miner 3.5,avr2,DUCOID30323131360B1916
+02:37:14.373271 DEBUG: COM8: client_response_feedback - GOOD
+02:37:14.373271 DEBUG: COM8: retrieved feedback: GOOD
+02:37:14  avr8  Accepted 12/12 (100%) ∙ 00.2s ∙ 340 H/s @ diff 8 ∙ ping 20ms
+02:37:14.420202 DEBUG: COM8: Requesting job
+02:37:14.435723 DEBUG: COM8: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:37:14.451412 DEBUG: COM8: job_received - 6a8dae7a80642cc82510e44d6761437b0599f162,5fbd37106041b78ee875ebafa034f4b81cbe196a,8
+02:37:14.466972 DEBUG: COM8: Received: 6a8dae7a80642cc82510e44d6761437b0599f162
+02:37:14.466972 DEBUG: COM8: Sending job to the board
+02:37:14.482637 DEBUG: COM8: board_job_request - 6a8dae7a80642cc82510e44d6761437b0599f162,5fbd37106041b78ee875ebafa034f4b81cbe196a,8,
+02:37:14.482637 DEBUG: COM8: Reading result from the board
+02:37:15.467915 DEBUG: COM7: board_job_response - 1100100000,1000111110010100001000,DUCOID3032313136110A13
+02:37:15.483559 DEBUG: COM7: Result: 1100100000
+02:37:15.483559 DEBUG: COM7: computetime - 2.35239
+02:37:15.498469 DEBUG: COM7: num_res - 800
+02:37:15.498469 DEBUG: COM7: hashrate_t - 340.08
+02:37:15.514214 DEBUG: COM7: client_response_send - 800,340.08,Official AVR Miner 3.5,avr1,DUCOID3032313136110A13
+02:37:15.545782 DEBUG: COM7: client_response_feedback - GOOD
+02:37:15.545782 DEBUG: COM7: retrieved feedback: GOOD
+02:37:15  avr7  Accepted 13/13 (100%) ∙ 02.4s ∙ 340 H/s @ diff 8 ∙ ping 20ms
+02:37:15.592176 DEBUG: COM7: Requesting job
+02:37:15.607836 DEBUG: COM7: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:37:15.623571 DEBUG: COM7: job_received - 04d92471e1e969bfbc49931f596c3f1bf27024b3,7f8b156804e2cdebb49936fab74f58fb742d8531,8
+02:37:15.639277 DEBUG: COM7: Received: 04d92471e1e969bfbc49931f596c3f1bf27024b3
+02:37:15.639277 DEBUG: COM7: Sending job to the board
+02:37:15.654587 DEBUG: COM7: board_job_request - 04d92471e1e969bfbc49931f596c3f1bf27024b3,7f8b156804e2cdebb49936fab74f58fb742d8531,8,
+02:37:15.670339 DEBUG: COM7: Reading result from the board
+02:37:15.795472 DEBUG: COM8: board_job_response - 110111100,100111110110100101000,DUCOID30323131360B1916
+02:37:15.811108 DEBUG: COM8: Result: 110111100
+02:37:15.826893 DEBUG: COM8: computetime - 1.3059
+02:37:15.826893 DEBUG: COM8: num_res - 444
+02:37:15.841976 DEBUG: COM8: hashrate_t - 340.0
+02:37:15.841976 DEBUG: COM8: client_response_send - 444,340.0,Official AVR Miner 3.5,avr2,DUCOID30323131360B1916
+02:37:15.873545 DEBUG: COM8: client_response_feedback - GOOD
+02:37:15.889237 DEBUG: COM8: retrieved feedback: GOOD
+02:37:15  avr8  Accepted 13/13 (100%) ∙ 01.3s ∙ 340 H/s @ diff 8 ∙ ping 20ms
+02:37:15.951562 DEBUG: COM8: Requesting job
+02:37:15.951562 DEBUG: COM8: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+02:37:15.983031 DEBUG: COM8: job_received - b64c4a864a744004d5c27ed936245b78725d7530,63d1b8f6d4e0d1a90a62653c1baa6fbe6a011f05,8
+02:37:15.998121 DEBUG: COM8: Received: b64c4a864a744004d5c27ed936245b78725d7530
+02:37:16.013876 DEBUG: COM8: Sending job to the board
+02:37:16.013876 DEBUG: COM8: board_job_request - b64c4a864a744004d5c27ed936245b78725d7530,63d1b8f6d4e0d1a90a62653c1baa6fbe6a011f05,8,
+02:37:16.029492 DEBUG: COM8: Reading result from the board
+
