@@ -1003,6 +1003,7 @@ def mine_avr(com, threadid, fastest_pool, thread_rigid):
                 debug_output(f'Connecting to {fastest_pool}')
                 s = Client.connect(fastest_pool)
                 server_version = Client.recv(s, 6)
+                pretty_print('Server version', server_version)
 
                 if threadid == 0:
                     if float(server_version) <= float(Settings.VER):
@@ -1052,15 +1053,21 @@ def mine_avr(com, threadid, fastest_pool, thread_rigid):
         while retries < 3:
             try:
                 debug_output(com + ': Sending hash test to the board')
-                ser.write(bytes(str(prev_hash
+                value_sent = str(prev_hash
                                     + Settings.SEPARATOR
                                     + exp_hash
                                     + Settings.SEPARATOR
                                     + "10"
-                                    + Settings.SEPARATOR),
+                                    + Settings.SEPARATOR)
+                debug_output(com + ': Value Sent for Testing Speed - ' + value_sent)
+                debug_output(com + ': encoding - ' + str(Settings.ENCODING))
+                
+                ser.write(bytes(value_sent,
                                 encoding=Settings.ENCODING))
                 debug_output(com + ': Reading hash test from the board')
-                result = ser.read_until(b'\n').decode().strip().split(',')
+                received = ser.read_until(b'\n').decode().strip()
+                debug_output(com + ': received - ' + str(received))
+                result = received.split(',')
                 ser.flush()
 
                 if result[0] and result[1]:
@@ -1074,6 +1081,9 @@ def mine_avr(com, threadid, fastest_pool, thread_rigid):
                 computetime = round(int(result[1], 2) / 1000000, 5)
                 num_res = int(result[0], 2)
                 hashrate_test = round(num_res / computetime, 2)
+                debug_output(com + ': computetime - ' + str(computetime))
+                debug_output(com + ': num_res - ' + str(num_res))
+                debug_output(com + ': hashrate_test - ' + str(hashrate_test))
                 break
             except Exception as e:
                 debug_output(str(e))
@@ -1101,6 +1111,7 @@ def mine_avr(com, threadid, fastest_pool, thread_rigid):
         elif hashrate_test > 370:
             start_diff = "MEGA"
 
+        start_diff = "DUE"
         pretty_print('sys' + port_num(com), 
                     get_string('hashrate_test') 
                     + get_prefix("H/s", hashrate_test, 2)
@@ -1108,6 +1119,7 @@ def mine_avr(com, threadid, fastest_pool, thread_rigid):
                     + get_string('hashrate_test_diff') 
                     + start_diff)
 
+        job_file = open("jobs_file.txt", "a", buffering=1)
         while True:
             try:
                 if config["AVR Miner"]["mining_key"] != "None":
@@ -1116,15 +1128,20 @@ def mine_avr(com, threadid, fastest_pool, thread_rigid):
                     key = config["AVR Miner"]["mining_key"]
 
                 debug_output(com + ': Requesting job')
-                Client.send(s, 'JOB'
+                job_request = str('JOB'
                             + Settings.SEPARATOR
                             + str(username)
                             + Settings.SEPARATOR
                             + start_diff
                             + Settings.SEPARATOR
-                            + str(key)
-                )
-                job = Client.recv(s, 128).split(Settings.SEPARATOR)
+                            + str(key))
+                job_file.writelines(["\nSTART\njob_request","|",str(job_request)])
+                debug_output(com + ': job_request - ' + str(job_request))
+                Client.send(s, job_request)
+                job_received = Client.recv(s, 128)
+                debug_output(com + ': job_received - ' + str(job_received))
+                job_file.writelines(["\njob_received","|",str(job_received)])
+                job = job_received.split(Settings.SEPARATOR)
                 debug_output(com + f": Received: {job[0]}")
 
                 try:
@@ -1143,20 +1160,27 @@ def mine_avr(com, threadid, fastest_pool, thread_rigid):
 
             retry_counter = 0
             while True:
+                job_file = open("jobs_file.txt", "a", buffering=1)
                 if retry_counter > 3:
                     break
 
                 try:
                     debug_output(com + ': Sending job to the board')
-                    ser.write(bytes(str(job[0]
+                    board_job_request = str(job[0]
                                         + Settings.SEPARATOR
                                         + job[1]
                                         + Settings.SEPARATOR
                                         + job[2]
-                                        + Settings.SEPARATOR),
+                                        + Settings.SEPARATOR)
+                    debug_output(com + ': board_job_request - ' + str(board_job_request))
+                    job_file.writelines(["\nboard_job_request","|",str(board_job_request)])
+                    ser.write(bytes(board_job_request,
                                     encoding=Settings.ENCODING))
                     debug_output(com + ': Reading result from the board')
-                    result = ser.read_until(b'\n').decode().strip().split(',')
+                    board_job_response = ser.read_until(b'\n').decode().strip()
+                    debug_output(com + ': board_job_response - ' + str(board_job_response))
+                    job_file.writelines(["\nboard_job_response","|",str(board_job_response)])
+                    result = board_job_response.split(',')
 
                     if result[0] and result[1]:
                         _ = int(result[0], 2)
@@ -1181,6 +1205,14 @@ def mine_avr(com, threadid, fastest_pool, thread_rigid):
                 hashrate_mean.append(hashrate_t)
                 hashrate = mean(hashrate_mean[-5:])
                 hashrate_list[threadid] = hashrate
+
+                debug_output(com + ': computetime - ' + str(computetime))
+                debug_output(com + ': num_res - ' + str(num_res))
+                debug_output(com + ': hashrate_t - ' + str(hashrate_t))
+                job_file.writelines(["\ncomputetime","|",str(computetime)])
+                job_file.writelines(["\nnum_res","|",str(num_res)])
+                job_file.writelines(["\nhashrate_t","|",str(hashrate_t)])
+
             except Exception as e:
                 pretty_print('sys' + port_num(com),
                              get_string('mining_avr_connection_error')
@@ -1191,7 +1223,8 @@ def mine_avr(com, threadid, fastest_pool, thread_rigid):
                 break
 
             try:
-                Client.send(s, str(num_res)
+
+                client_response_send = str(str(num_res)
                             + Settings.SEPARATOR
                             + str(hashrate_t)
                             + Settings.SEPARATOR
@@ -1200,10 +1233,18 @@ def mine_avr(com, threadid, fastest_pool, thread_rigid):
                             + str(thread_rigid)
                             + Settings.SEPARATOR
                             + str(result[2]))
+                debug_output(com + ': client_response_send - ' + str(client_response_send))
+                job_file.writelines(["\nclient_response_send","|",str(client_response_send)])
+                Client.send(s, client_response_send)
 
                 responsetimetart = now()
-                feedback = Client.recv(s, 64).split(",")
+                feedback_before_split = Client.recv(s, 64)
                 responsetimestop = now()
+                feedback = feedback_before_split.split(",")
+                
+                debug_output(com + ': client_response_feedback - ' + str(feedback_before_split))
+                job_file.writelines(["\nfeedback_before_split","|",str(feedback_before_split)])
+                job_file.writelines(["\nEND"])
 
                 time_delta = (responsetimestop -
                               responsetimetart).microseconds
@@ -1263,6 +1304,7 @@ def mine_avr(com, threadid, fastest_pool, thread_rigid):
                                 shares[2], hashrate, uptime)
                 start_time = time()
                 last_report_share = shares[0]
+        job_file.close()
 
 
 def periodic_report(start_time, end_time, shares,

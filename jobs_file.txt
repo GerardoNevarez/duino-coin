@@ -1,0 +1,643 @@
+---------------------------------
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,ESP8266,y3fwdjWr2T8YY3
+job_received|d1a091c1c62275546313cbda6ae0b52b86083f7e,a29fa58cd3cf422a1fd98fc7684fdc71fffdbaff,1750
+board_job_request|d1a091c1c62275546313cbda6ae0b52b86083f7e,a29fa58cd3cf422a1fd98fc7684fdc71fffdbaff,1750,
+board_job_response|10011001001001,110111001000101101101,DUCOID302E3120FF192143
+computetime|1.8067
+num_res|9801
+hashrate_t|5424.81
+client_response_send|9801,5424.81,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|BAD,Too high starting difficulty
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,ESP8266,y3fwdjWr2T8YY3
+job_received|48309c4364233bafb2cbaf53323125a231aab135,eb42094f3342b6f035578b27db02b8bf24cf1ae5,1750
+board_job_request|48309c4364233bafb2cbaf53323125a231aab135,eb42094f3342b6f035578b27db02b8bf24cf1ae5,1750,
+board_job_response|
+board_job_request|48309c4364233bafb2cbaf53323125a231aab135,eb42094f3342b6f035578b27db02b8bf24cf1ae5,1750,
+board_job_response|10001110011110000,110100001010001010011110,DUCOID302E3120FF192143
+computetime|13.67312
+num_res|72944
+hashrate_t|5334.85
+client_response_send|72944,5334.85,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|BAD,Too high starting difficulty
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,ESP8266,y3fwdjWr2T8YY3
+job_received|f666cd47dafb078b4cc991472a512a5f85886137,ea3c6540ddedbc51bfcedfc21f9f10748e395c3f,1750
+board_job_request|f666cd47dafb078b4cc991472a512a5f85886137,ea3c6540ddedbc51bfcedfc21f9f10748e395c3f,1750,
+board_job_response|110100100101111,10011000101101000000010,DUCOID302E3120FF192143
+computetime|5.00378
+num_res|26927
+hashrate_t|5381.33
+client_response_send|26927,5381.33,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|BAD,Too high starting difficulty
+END
+---------------------------------
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+job_received|18cdbec5701274593ecc22e2808010c3c394d5cf,0f0a0179822f67468b404cb6aca789d95168ad9b,8
+board_job_request|18cdbec5701274593ecc22e2808010c3c394d5cf,0f0a0179822f67468b404cb6aca789d95168ad9b,8,
+board_job_response|1011101111,100001010100011000,DUCOID302E3120FF192143
+computetime|0.13647
+num_res|751
+hashrate_t|5503.04
+client_response_send|751,5503.04,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|BAD,Too low starting difficulty
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+job_received|222fddb793758f845c5091a6bf9d240a86e72a3e,2511167fde32c571170a93b874aa0440c2c57236,24
+board_job_request|222fddb793758f845c5091a6bf9d240a86e72a3e,2511167fde32c571170a93b874aa0440c2c57236,24,
+board_job_response|10011100101,110111101010111011,DUCOID302E3120FF192143
+computetime|0.22803
+num_res|1253
+hashrate_t|5494.89
+client_response_send|1253,5494.89,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|BAD,Too low starting difficulty
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+job_received|fb0cc44a7b9d151f6f1ce6c1ecd33edecca27f61,8d9ec30681bc3c9e43cc7364e4c2f9e72f4d8e46,128
+board_job_request|fb0cc44a7b9d151f6f1ce6c1ecd33edecca27f61,8d9ec30681bc3c9e43cc7364e4c2f9e72f4d8e46,128,
+board_job_response|101010100001,1111001100010101000,DUCOID302E3120FF192143
+computetime|0.49783
+num_res|2721
+hashrate_t|5465.72
+client_response_send|2721,5465.72,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|BAD,Too low starting difficulty
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+job_received|ea2cbc0b746c9bec58d6a6522c06866ab02859c7,ebf795b6204ad4c504f1e2ae61bdca1d6670fdf1,333
+board_job_request|ea2cbc0b746c9bec58d6a6522c06866ab02859c7,ebf795b6204ad4c504f1e2ae61bdca1d6670fdf1,333,
+board_job_response|10001010100110,110001111000011100011,DUCOID302E3120FF192143
+computetime|1.63453
+num_res|8870
+hashrate_t|5426.64
+client_response_send|8870,5426.64,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+job_received|766f53c2be54f5d27ed8f8c2ef4b6f1a0d3ad76c,c7e385b79eac2778670e240753991254dc322c9a,333
+board_job_request|766f53c2be54f5d27ed8f8c2ef4b6f1a0d3ad76c,c7e385b79eac2778670e240753991254dc322c9a,333,
+board_job_response|1010110110,11110110010010000,DUCOID302E3120FF192143
+computetime|0.1261
+num_res|694
+hashrate_t|5503.57
+client_response_send|694,5503.57,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+job_received|7c38ca6b731d3a36db47f19b27712ec6f922beb9,a4912526fa3402c2d56a9acfa6a32e1549ac7e6e,333
+board_job_request|7c38ca6b731d3a36db47f19b27712ec6f922beb9,a4912526fa3402c2d56a9acfa6a32e1549ac7e6e,333,
+board_job_response|10011101000010,111000100010101101111,DUCOID302E3120FF192143
+computetime|1.85278
+num_res|10050
+hashrate_t|5424.28
+client_response_send|10050,5424.28,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+job_received|adc3d641803d54fbd6ad86a53a38230055196bae,e948f0d2eb73e36cadbc18edec179472ea2eb6ad,333
+board_job_request|adc3d641803d54fbd6ad86a53a38230055196bae,e948f0d2eb73e36cadbc18edec179472ea2eb6ad,333,
+board_job_response|101101000010,10000000110011101001,DUCOID302E3120FF192143
+computetime|0.52759
+num_res|2882
+hashrate_t|5462.58
+client_response_send|2882,5462.58,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+job_received|06ecbb09b2f53efaac25be383563f71aaa9e88de,4cedd03bcaf3e7e31799e4422db215613b455e76,333
+board_job_request|06ecbb09b2f53efaac25be383563f71aaa9e88de,4cedd03bcaf3e7e31799e4422db215613b455e76,333,
+board_job_response|11010111101110,1001101110110111011101,DUCOID302E3120FF192143
+computetime|2.55126
+num_res|13806
+hashrate_t|5411.44
+client_response_send|13806,5411.44,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+job_received|3b238239123623bad3aafa3ec3bf0c85b3af91dd,c7269de01f64c07c8c92549e34f222da61c1e2e3,333
+board_job_request|3b238239123623bad3aafa3ec3bf0c85b3af91dd,c7269de01f64c07c8c92549e34f222da61c1e2e3,333,
+board_job_response|100011100000100,1100110101110100100110,DUCOID302E3120FF192143
+computetime|3.36618
+num_res|18180
+hashrate_t|5400.78
+client_response_send|18180,5400.78,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+job_received|10b56d00c63d869468269b1d3b5f3d80406cd75c,146927eb33316113cd6bdcb0cbc7d8f7dd38c8a3,333
+board_job_request|10b56d00c63d869468269b1d3b5f3d80406cd75c,146927eb33316113cd6bdcb0cbc7d8f7dd38c8a3,333,
+board_job_response|100100011010110,1101001011000011111101,DUCOID302E3120FF192143
+computetime|3.45318
+num_res|18646
+hashrate_t|5399.66
+client_response_send|18646,5399.66,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+job_received|dda3509635bbbc8cbfc70bbcfb7f1bab6f1768d0,07680c9a1e13e22b1a12a3db02c011f8dfc5270d,333
+board_job_request|dda3509635bbbc8cbfc70bbcfb7f1bab6f1768d0,07680c9a1e13e22b1a12a3db02c011f8dfc5270d,333,
+board_job_response|10101111010110,111111001100011010000,DUCOID302E3120FF192143
+computetime|2.07074
+num_res|11222
+hashrate_t|5419.32
+client_response_send|11222,5419.32,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,AVR,y3fwdjWr2T8YY3
+job_received|380b6535f8aef6fa742e77beb489e2263ef5175e,e96ecf0743e9f4d2f56eeea791e181b0b1074b89,333
+board_job_request|380b6535f8aef6fa742e77beb489e2263ef5175e,e96ecf0743e9f4d2f56eeea791e181b0b1074b89,333,
+board_job_response|100001101101101,1100001011111100001000,DUCOID302E3120FF192143
+computetime|3.19463
+num_res|17261
+hashrate_t|5403.13
+client_response_send|17261,5403.13,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+---------------------------------
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|eb3d31c3d5218d15b416f3f11a401c1de4048555,82e7ad5ebd8603d6bdae4be4d917b977b808c00d,333
+board_job_request|eb3d31c3d5218d15b416f3f11a401c1de4048555,82e7ad5ebd8603d6bdae4be4d917b977b808c00d,333,
+board_job_response|110001001000010,10001110100011011110110,DUCOID302E3120FF192143
+computetime|4.67122
+num_res|25154
+hashrate_t|5384.89
+client_response_send|25154,5384.89,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|420658f7feb42437aa3c33104ffd1d8405835e8c,42f0fd2312c369e13e7ad6da96e8232d7c44bfcc,333
+board_job_request|420658f7feb42437aa3c33104ffd1d8405835e8c,42f0fd2312c369e13e7ad6da96e8232d7c44bfcc,333,
+board_job_response|101101010000010,10000011001101101011011,DUCOID302E3120FF192143
+computetime|4.29961
+num_res|23170
+hashrate_t|5388.86
+client_response_send|23170,5388.86,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|b2e6aa0cb90cfcb59d9496e0ae76f54283a8c339,2b23b16fe00fb02f10e573ea0a0452920dafce5d,333
+board_job_request|b2e6aa0cb90cfcb59d9496e0ae76f54283a8c339,2b23b16fe00fb02f10e573ea0a0452920dafce5d,333,
+board_job_response|10000110100010,110000011010101000101,DUCOID302E3120FF192143
+computetime|1.5865
+num_res|8610
+hashrate_t|5427.04
+client_response_send|8610,5427.04,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|7dbbcf3b7e79c35f00a12b26f9db940beb810d37,25770c0dc21a34148d2cc758ecc254a87c45f028,333
+board_job_request|7dbbcf3b7e79c35f00a12b26f9db940beb810d37,25770c0dc21a34148d2cc758ecc254a87c45f028,333,
+board_job_response|1110110000111,101010011111001010001,DUCOID302E3120FF192143
+computetime|1.39221
+num_res|7559
+hashrate_t|5429.5
+client_response_send|7559,5429.5,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|2d26531215b233913b14a7b1b7649bd5c2afed8a,4af51b68fd9d76ad1c053910e4f0067ef0dcb36b,333
+board_job_request|2d26531215b233913b14a7b1b7649bd5c2afed8a,4af51b68fd9d76ad1c053910e4f0067ef0dcb36b,333,
+board_job_response|101111001000110,10001000101110010101000,DUCOID302E3120FF192143
+computetime|4.48017
+num_res|24134
+hashrate_t|5386.85
+client_response_send|24134,5386.85,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|08ff2ecc075ce3e2769f8b1f0b6e4ca510bc6c2e,8efa591a680480a080bab6879f8cdff757ae920a,333
+board_job_request|08ff2ecc075ce3e2769f8b1f0b6e4ca510bc6c2e,8efa591a680480a080bab6879f8cdff757ae920a,333,
+board_job_response|110100011111001,10011000011001110001010,DUCOID302E3120FF192143
+computetime|4.99393
+num_res|26873
+hashrate_t|5381.13
+client_response_send|26873,5381.13,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|8f03744a38f8157f26d30d873f00f6c9470be911,1e3bf6987d6671696fd2afe058c27368732ae07b,333
+board_job_request|8f03744a38f8157f26d30d873f00f6c9470be911,1e3bf6987d6671696fd2afe058c27368732ae07b,333,
+board_job_response|101001001110010,1110111011010101011101,DUCOID302E3120FF192143
+computetime|3.91305
+num_res|21106
+hashrate_t|5393.75
+client_response_send|21106,5393.75,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|00cffd9d0499bde45ba3cdc88c37546a18ff6374,d1474e6c394b2a3796e91e1fc31e5e52e47684c4,333
+board_job_request|00cffd9d0499bde45ba3cdc88c37546a18ff6374,d1474e6c394b2a3796e91e1fc31e5e52e47684c4,333,
+board_job_response|100000010011000,1011101010111010000010,DUCOID302E3120FF192143
+computetime|3.05933
+num_res|16536
+hashrate_t|5405.11
+client_response_send|16536,5405.11,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|1baf7cde69340db914b5d04eacebe190988632f1,8ac9b7708ed9bfb764a7c40e8ea0692ae84b37fe,333
+board_job_request|1baf7cde69340db914b5d04eacebe190988632f1,8ac9b7708ed9bfb764a7c40e8ea0692ae84b37fe,333,
+board_job_response|1001110010,11011110000111110,DUCOID302E3120FF192143
+computetime|0.11373
+num_res|626
+hashrate_t|5504.26
+client_response_send|626,5504.26,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|8804d3b040201868d28e28e215f834ef52738b93,e2f9775772a5ff137d36a22069be79ada87744ae,333
+board_job_request|8804d3b040201868d28e28e215f834ef52738b93,e2f9775772a5ff137d36a22069be79ada87744ae,333,
+board_job_response|10000110011011,110000011000000110110,DUCOID302E3120FF192143
+computetime|1.58521
+num_res|8603
+hashrate_t|5427.04
+client_response_send|8603,5427.04,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|f4dedb5d58e1627e3e6c48c54aa8c960c814254b,3bdfe77508fc3defc79191370522821e43cde06a,333
+board_job_request|f4dedb5d58e1627e3e6c48c54aa8c960c814254b,3bdfe77508fc3defc79191370522821e43cde06a,333,
+board_job_response|1111001001011,101011100101111100010,DUCOID302E3120FF192143
+computetime|1.42845
+num_res|7755
+hashrate_t|5428.96
+client_response_send|7755,5428.96,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|60114a7b3544db7962042e311032f999e20c2061,399825e4dda529edd8156c6f59fdee2bc90d5932,333
+board_job_request|60114a7b3544db7962042e311032f999e20c2061,399825e4dda529edd8156c6f59fdee2bc90d5932,333,
+board_job_response|110101110010000,10011100001101000011110,DUCOID302E3120FF192143
+computetime|5.11849
+num_res|27536
+hashrate_t|5379.71
+client_response_send|27536,5379.71,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|a15f7b858e40a4c44ebab2a8e1e3f7bbd0a5dd41,d25ccacca7405a4c390e716906e21713000e95ba,333
+board_job_request|a15f7b858e40a4c44ebab2a8e1e3f7bbd0a5dd41,d25ccacca7405a4c390e716906e21713000e95ba,333,
+board_job_response|10010101010110,110101110000111101001,DUCOID302E3120FF192143
+computetime|1.76177
+num_res|9558
+hashrate_t|5425.23
+client_response_send|9558,5425.23,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|46332829719758eacfad42b09689aaeb23a21667,9fb78fd1878579c26d1eb54f5295878b52e8a28f,333
+board_job_request|46332829719758eacfad42b09689aaeb23a21667,9fb78fd1878579c26d1eb54f5295878b52e8a28f,333,
+board_job_response|101001000010100,1110110111000010100001,DUCOID302E3120FF192143
+computetime|3.89546
+num_res|21012
+hashrate_t|5393.97
+client_response_send|21012,5393.97,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|66bf80211d3b9f9fc3343bdcd847ef090fd22117,24cb259248ce836b803d3fde55c68c67dcdfb6a2,333
+board_job_request|66bf80211d3b9f9fc3343bdcd847ef090fd22117,24cb259248ce836b803d3fde55c68c67dcdfb6a2,333,
+board_job_response|111101010110,10101111111011000001,DUCOID302E3120FF192143
+computetime|0.72058
+num_res|3926
+hashrate_t|5448.39
+client_response_send|3926,5448.39,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|deb1affb0ab84357838202b9c6ea60fd5064eb4a,83148aec7e14e4b96f4de462cab56a1201d59681,333
+board_job_request|deb1affb0ab84357838202b9c6ea60fd5064eb4a,83148aec7e14e4b96f4de462cab56a1201d59681,333,
+board_job_response|111010001001101,10101001000010001010000,DUCOID302E3120FF192143
+computetime|5.5389
+num_res|29773
+hashrate_t|5375.26
+client_response_send|29773,5375.26,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|816bb7afd1677c2b7d8e73f792c2379eb1015451,52732109b75f505a77fea6625ce04e1fd94412ba,333
+board_job_request|816bb7afd1677c2b7d8e73f792c2379eb1015451,52732109b75f505a77fea6625ce04e1fd94412ba,333,
+board_job_response|110001101110111,10010000010100100001101,DUCOID302E3120FF192143
+computetime|4.7291
+num_res|25463
+hashrate_t|5384.32
+client_response_send|25463,5384.32,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|b35ac5f73a4a940942348350631485fa58f7e27a,b017c457c37b615ed545ef8077525e09da78b208,333
+board_job_request|b35ac5f73a4a940942348350631485fa58f7e27a,b017c457c37b615ed545ef8077525e09da78b208,333,
+board_job_response|10000110101011,110000011101111000101,DUCOID302E3120FF192143
+computetime|1.58817
+num_res|8619
+hashrate_t|5427.0
+client_response_send|8619,5427.0,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|c5165f44dc37c4131df2ae0bd45cbdf74ab25b1f,1621c1835cbf9feb60f0e3ca7ac6bed079498928,333
+board_job_request|c5165f44dc37c4131df2ae0bd45cbdf74ab25b1f,1621c1835cbf9feb60f0e3ca7ac6bed079498928,333,
+board_job_response|111111011101100,10111000101000001111000,DUCOID302E3120FF192143
+computetime|6.04991
+num_res|32492
+hashrate_t|5370.66
+client_response_send|32492,5370.66,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|86a6b92eb9e66a5f4a77ea8a1219d45ae44960bf,5f71b19817c0f6886eb469e7d2a00fe023320219,333
+board_job_request|86a6b92eb9e66a5f4a77ea8a1219d45ae44960bf,5f71b19817c0f6886eb469e7d2a00fe023320219,333,
+board_job_response|101111010011011,10001001001101011010100,DUCOID302E3120FF192143
+computetime|4.49608
+num_res|24219
+hashrate_t|5386.69
+client_response_send|24219,5386.69,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|a3f3319f66882ee4c53e86b5f206974585c86d51,f24752dfb38ce0e656ee5fd9dfcb272356ad9fca,333
+board_job_request|a3f3319f66882ee4c53e86b5f206974585c86d51,f24752dfb38ce0e656ee5fd9dfcb272356ad9fca,333,
+board_job_response|110011111010,10010100101010011111,DUCOID302E3120FF192143
+computetime|0.60893
+num_res|3322
+hashrate_t|5455.47
+client_response_send|3322,5455.47,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|eae419b4df155767682ec337c551947d75c4e891,592454e09fe6f6d387d82796779678201bdd030d,333
+board_job_request|eae419b4df155767682ec337c551947d75c4e891,592454e09fe6f6d387d82796779678201bdd030d,333,
+board_job_response|1000000001011,10111000000101110011,DUCOID302E3120FF192143
+computetime|0.75404
+num_res|4107
+hashrate_t|5446.66
+client_response_send|4107,5446.66,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|a19983f9390e24aa4a2b8b1f60a4e7fc47cc0616,066bed16be86984178aa9474a971ff95e288485f,333
+board_job_request|a19983f9390e24aa4a2b8b1f60a4e7fc47cc0616,066bed16be86984178aa9474a971ff95e288485f,333,
+board_job_response|11111001100000,1011010001000001101000,DUCOID302E3120FF192143
+computetime|2.95332
+num_res|15968
+hashrate_t|5406.8
+client_response_send|15968,5406.8,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|2be2cdaa9a11dbe72f5f624a919a24666cbde7d4,3ef40a313c60c4d0ed920a1b9fd56de923112d54,333
+board_job_request|2be2cdaa9a11dbe72f5f624a919a24666cbde7d4,3ef40a313c60c4d0ed920a1b9fd56de923112d54,333,
+board_job_response|111001011001101,10100110110101001100101,DUCOID302E3120FF192143
+computetime|5.46673
+num_res|29389
+hashrate_t|5375.97
+client_response_send|29389,5375.97,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|588f1d037182f5752f599fabbb8142f092c61dbf,8863a3f98833e5ca96c76a7327dd6a1d6d44bf5f,333
+board_job_request|588f1d037182f5752f599fabbb8142f092c61dbf,8863a3f98833e5ca96c76a7327dd6a1d6d44bf5f,333,
+board_job_response|100110100111100,1101111110011000011001,DUCOID302E3120FF192143
+computetime|3.66338
+num_res|19772
+hashrate_t|5397.2
+client_response_send|19772,5397.2,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|18bc068ed4222dd7f88689e8faab22c93abb11d2,2127f1d8a17c1d16b5969741e0cd40baff90d157,333
+board_job_request|18bc068ed4222dd7f88689e8faab22c93abb11d2,2127f1d8a17c1d16b5969741e0cd40baff90d157,333,
+board_job_response|110111001011000,10100000010010010111110,DUCOID302E3120FF192143
+computetime|5.25229
+num_res|28248
+hashrate_t|5378.23
+client_response_send|28248,5378.23,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|91785d966335520dd84cbfb083ddcfff35c2c276,33b8f472c2ce9c1821498165ce264405bfb3d74d,333
+board_job_request|91785d966335520dd84cbfb083ddcfff35c2c276,33b8f472c2ce9c1821498165ce264405bfb3d74d,333,
+board_job_response|11011010000001,1001110101100010100011,DUCOID302E3120FF192143
+computetime|2.57859
+num_res|13953
+hashrate_t|5411.1
+client_response_send|13953,5411.1,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|132f72547ebcb1348926df053fca0a7fd5569466,c85f26cd54a24cd3013d6b91be3ad8d82c341eb3,333
+board_job_request|132f72547ebcb1348926df053fca0a7fd5569466,c85f26cd54a24cd3013d6b91be3ad8d82c341eb3,333,
+board_job_response|111011100010011,10101101000110110100100,DUCOID302E3120FF192143
+computetime|5.67236
+num_res|30483
+hashrate_t|5373.95
+client_response_send|30483,5373.95,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|54b6b177600054d2dae6fda285b5577b3bf76659,6a7d1ab29f717705f996b0c2658d4c9f1e7991fe,333
+board_job_request|54b6b177600054d2dae6fda285b5577b3bf76659,6a7d1ab29f717705f996b0c2658d4c9f1e7991fe,333,
+board_job_response|101011101111,1111101000011111101,DUCOID302E3120FF192143
+computetime|0.51225
+num_res|2799
+hashrate_t|5464.13
+client_response_send|2799,5464.13,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|2192aa9af6d2a275e177d196eba2e8eb25309ddb,e005b54f04fee9bab49849b726a5472ecf55e3bc,333
+board_job_request|2192aa9af6d2a275e177d196eba2e8eb25309ddb,e005b54f04fee9bab49849b726a5472ecf55e3bc,333,
+board_job_response|1010000011100,11100111000100101001,DUCOID302E3120FF192143
+computetime|0.94647
+num_res|5148
+hashrate_t|5439.16
+client_response_send|5148,5439.16,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|5540cdca818b4ce6a6d6281062155facf34e8495,3575c1c0a92a33c2dc62b22ea1db7e7901f28c7f,333
+board_job_request|5540cdca818b4ce6a6d6281062155facf34e8495,3575c1c0a92a33c2dc62b22ea1db7e7901f28c7f,333,
+board_job_response|111010110001,10101000011110011100,DUCOID302E3120FF192143
+computetime|0.69008
+num_res|3761
+hashrate_t|5450.09
+client_response_send|3761,5450.09,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|d11a9b083cd91c069e8d0c4087a3211fb3786c3c,ef1fd9052a322d8a722bc70ee2f90c30c38a8649,333
+board_job_request|d11a9b083cd91c069e8d0c4087a3211fb3786c3c,ef1fd9052a322d8a722bc70ee2f90c30c38a8649,333,
+board_job_response|111001100010100,10100111001111010001011,DUCOID302E3120FF192143
+computetime|5.48008
+num_res|29460
+hashrate_t|5375.83
+client_response_send|29460,5375.83,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|e89fb00f894c618c916b851985ba052c46ac13cb,6d5380f9357426d6db7676bfcfc1a1c07f3e3c04,333
+board_job_request|e89fb00f894c618c916b851985ba052c46ac13cb,6d5380f9357426d6db7676bfcfc1a1c07f3e3c04,333,
+board_job_response|1100000000100,100010100001101000111,DUCOID302E3120FF192143
+computetime|1.13133
+num_res|6148
+hashrate_t|5434.31
+client_response_send|6148,5434.31,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|1152a3ac211b02023b09a386de2ca360b8843704,e040d139b5e06823f4b97fcdc604953684b08d2a,333
+board_job_request|1152a3ac211b02023b09a386de2ca360b8843704,e040d139b5e06823f4b97fcdc604953684b08d2a,333,
+board_job_response|110010111100101,10010011111000100110101,DUCOID302E3120FF192143
+computetime|4.84588
+num_res|26085
+hashrate_t|5382.92
+client_response_send|26085,5382.92,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|513329f17bf86c042bd1a23c77206f662d9fb619,72434d8d1304cefad5a1331d43d80b8fbcbff764,333
+board_job_request|513329f17bf86c042bd1a23c77206f662d9fb619,72434d8d1304cefad5a1331d43d80b8fbcbff764,333,
+board_job_response|111100110011101,10110000110101011010011,DUCOID302E3120FF192143
+computetime|5.79451
+num_res|31133
+hashrate_t|5372.84
+client_response_send|31133,5372.84,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|dfa75140caf763f83774ce3bee0fa0b67004cff8,383ce81d98ad3cb4cbc74e4863437b0cc9ee339e,333
+board_job_request|dfa75140caf763f83774ce3bee0fa0b67004cff8,383ce81d98ad3cb4cbc74e4863437b0cc9ee339e,333,
+board_job_response|11111000000100,1011001100110110101110,DUCOID302E3120FF192143
+computetime|2.93624
+num_res|15876
+hashrate_t|5406.91
+client_response_send|15876,5406.91,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|65752b5705570a7d8f35f1a2df1473325cb2cb9d,8daa351d3a670ca2c2a9bb794d47d32be7b2ccc3,333
+board_job_request|65752b5705570a7d8f35f1a2df1473325cb2cb9d,8daa351d3a670ca2c2a9bb794d47d32be7b2ccc3,333,
+board_job_response|111010000000011,10101000100110111110101,DUCOID302E3120FF192143
+computetime|5.52498
+num_res|29699
+hashrate_t|5375.4
+client_response_send|29699,5375.4,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|433185dc8249647dd738ade6b0abef0a2d5eff9f,a8bedd207121b25ecea4125b0ded419bcf41f48f,333
+board_job_request|433185dc8249647dd738ade6b0abef0a2d5eff9f,a8bedd207121b25ecea4125b0ded419bcf41f48f,333,
+board_job_response|110001110101110,10010000101000101010101,DUCOID302E3120FF192143
+computetime|4.73941
+num_res|25518
+hashrate_t|5384.21
+client_response_send|25518,5384.21,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|e4c48467937a6f5397ef9240a300b7dbec9c97aa,a6b25884afed06310a93fe773187ba0c5bc5dc02,333
+board_job_request|e4c48467937a6f5397ef9240a300b7dbec9c97aa,a6b25884afed06310a93fe773187ba0c5bc5dc02,333,
+board_job_response|111110000110001,10110100100111101100011,DUCOID302E3120FF192143
+computetime|5.91856
+num_res|31793
+hashrate_t|5371.75
+client_response_send|31793,5371.75,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|12de120f2eab61438e28d6836736c1d5478ef28a,b3d6ec3417dc6a225c3e8048b4ee9b9ba7444a5f,333
+board_job_request|12de120f2eab61438e28d6836736c1d5478ef28a,b3d6ec3417dc6a225c3e8048b4ee9b9ba7444a5f,333,
+board_job_response|101100000100,1111110000000101001,DUCOID302E3120FF192143
+computetime|0.51614
+num_res|2820
+hashrate_t|5463.63
+client_response_send|2820,5463.63,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|2a2a4e8544faed0cef06784b248d1a45eeb43d59,c3fcf5f0a5fffab66e7dc0c7e2c5beacda71fe59,333
+board_job_request|2a2a4e8544faed0cef06784b248d1a45eeb43d59,c3fcf5f0a5fffab66e7dc0c7e2c5beacda71fe59,333,
+board_job_response|10101110100100,111110111010001111000,DUCOID302E3120FF192143
+computetime|2.06143
+num_res|11172
+hashrate_t|5419.54
+client_response_send|11172,5419.54,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|7631a410bae8863bdc223625e5d89d119e20386e,84d3c8ff40fc445384e414d3a724271ed491edc8,333
+board_job_request|7631a410bae8863bdc223625e5d89d119e20386e,84d3c8ff40fc445384e414d3a724271ed491edc8,333,
+board_job_response|10101101101111,111110100110111110111,DUCOID302E3120FF192143
+computetime|2.05158
+num_res|11119
+hashrate_t|5419.73
+client_response_send|11119,5419.73,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
+START
+job_request|JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+job_received|73202f3c3f5fd683c880ff40fc2f1c933bc6cd5c,289852c72193a239a9c4e4843e70af6cdcb7a64d,333
+board_job_request|73202f3c3f5fd683c880ff40fc2f1c933bc6cd5c,289852c72193a239a9c4e4843e70af6cdcb7a64d,333,
+board_job_response|110010010011011,10010001111111100001010,DUCOID302E3120FF192143
+computetime|4.78388
+num_res|25755
+hashrate_t|5383.71
+client_response_send|25755,5383.71,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+feedback_before_split|GOOD
+END
