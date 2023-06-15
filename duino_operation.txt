@@ -883,3 +883,126 @@
 
 ----------------------------------------------------------------------
 
+(duco) D:\git\duino-coin>python AVR_Miner.py
+01:22:22.194788 DEBUG: Config file loaded
+
+ ‖ Official Duino-Coin © AVR Miner 3.5 2019-2023
+ ‖ https://github.com/revoxhere/duino-coin
+ ‖ AVR board(s) on port(s): COM19
+ ‖ Developer donation level: 0
+ ‖ Algorithm: DUCO-S1A ⚙ AVR diff
+01:22:22.211803 DEBUG: Error displaying greeting message: can only concatenate str (not "list") to str
+01:22:22  net0  Searching for the fastest node to connect to
+01:22:23  net0  Retrieved mining node: iowa-pool-1
+01:22:25.083638 DEBUG: Connecting to ('162.212.157.226', 5366)
+01:22:25  Server version  3.0
+01:22:25  net0  Connected to master Duino-Coin server (v3.0)
+01:22:25  net0  Server message of the day: Welcome to iowa USA node hosted by revox (inst. 1) | NEW: Exchange various cryptocoins fast on fluffyswap.com
+01:22:25  sys19  AVR mining thread is starting using DUCO-S1A algorithm (COM19)
+01:22:25.161517 DEBUG: COM19: Sending hash test to the board
+01:22:25.162510 DEBUG: COM19: Value Sent for Testing Speed - ba29a15896fd2d792d5c4b60668bf2b9feebc51d,d0beba883d7e8cd119ea2b0e09b78f60f29e0968,10,
+01:22:25.164512 DEBUG: COM19: encoding - utf-8
+01:22:25.165505 DEBUG: COM19: Reading hash test from the board
+01:22:25.177565 DEBUG: COM19: received - 110010,10001111011000,DUCOID302E3120FF192143
+01:22:25.178565 DEBUG: COM19: Result: 110010
+01:22:25.179564 DEBUG: COM19: computetime - 0.00918
+01:22:25.180566 DEBUG: COM19: num_res - 50
+01:22:25.181562 DEBUG: COM19: hashrate_test - 5446.62
+01:22:25  sys19  Hashrate test ended with 5 kH/s, assigned starting difficulty: DUE
+01:22:25.184561 DEBUG: COM19: Requesting job
+01:22:25.186564 DEBUG: COM19: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+01:22:25.209592 DEBUG: COM19: job_received - 2d97e6087fc122fe8ff1d4aa0615fa435ca44f26,7e13b7bc8c7aab29f6ef6dcebe28046bee3a717b,333
+01:22:25.212571 DEBUG: COM19: Received: 2d97e6087fc122fe8ff1d4aa0615fa435ca44f26
+01:22:25.213565 DEBUG: COM19: Sending job to the board
+01:22:25.214562 DEBUG: COM19: board_job_request - 2d97e6087fc122fe8ff1d4aa0615fa435ca44f26,7e13b7bc8c7aab29f6ef6dcebe28046bee3a717b,333,
+01:22:25.215563 DEBUG: COM19: Reading result from the board
+01:22:28.526043 DEBUG: COM19: board_job_response - 100010111001001,1100100111011101111010,DUCOID302E3120FF192143
+01:22:28.528177 DEBUG: COM19: Result: 100010111001001
+01:22:28.529172 DEBUG: COM19: computetime - 3.30739
+01:22:28.530177 DEBUG: COM19: num_res - 17865
+01:22:28.531173 DEBUG: COM19: hashrate_t - 5401.54
+01:22:28.532177 DEBUG: COM19: client_response_send - 17865,5401.54,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+01:22:28.554776 DEBUG: COM19: client_response_feedback - GOOD
+01:22:28.555772 DEBUG: COM19: retrieved feedback: GOOD
+01:22:28  avr19  ⛏ Accepted 1/1 (100%) ∙ 03.3s ∙ 5 kH/s ⚙ diff 333 ∙ ping 23ms
+01:22:28.582773 DEBUG: COM19: Requesting job
+01:22:28.583773 DEBUG: COM19: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+01:22:28.606776 DEBUG: COM19: job_received - edd501cd0a25ba8dfe1cf7f3ed464d951484bd31,5bd51ad7fc1b951ed1e961aeee802b34489c6c2b,333
+01:22:28.607774 DEBUG: COM19: Received: edd501cd0a25ba8dfe1cf7f3ed464d951484bd31
+01:22:28.611772 DEBUG: COM19: Sending job to the board
+01:22:28.612771 DEBUG: COM19: board_job_request - edd501cd0a25ba8dfe1cf7f3ed464d951484bd31,5bd51ad7fc1b951ed1e961aeee802b34489c6c2b,333,
+01:22:28.614773 DEBUG: COM19: Reading result from the board
+01:22:29.482699 DEBUG: COM19: board_job_response - 1001001100011,11010011001010111000,DUCOID302E3120FF192143
+01:22:29.484696 DEBUG: COM19: Result: 1001001100011
+01:22:29.485702 DEBUG: COM19: computetime - 0.86495
+01:22:29.487701 DEBUG: COM19: num_res - 4707
+01:22:29.488696 DEBUG: COM19: hashrate_t - 5441.93
+01:22:29.489699 DEBUG: COM19: client_response_send - 4707,5441.93,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+01:22:29.513104 DEBUG: COM19: client_response_feedback - GOOD
+01:22:29.514470 DEBUG: COM19: retrieved feedback: GOOD
+01:22:29  avr19  ⛏ Accepted 2/2 (100%) ∙ 00.9s ∙ 5 kH/s ⚙ diff 333 ∙ ping 22ms
+01:22:29.539470 DEBUG: COM19: Requesting job
+01:22:29.540469 DEBUG: COM19: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+01:22:29.564484 DEBUG: COM19: job_received - 36fe7b257625dad1a5446f1169c0ca359f9c1703,d7aa52d7d762082768a50ebb136dd8ea6bb2c695,333
+01:22:29.565469 DEBUG: COM19: Received: 36fe7b257625dad1a5446f1169c0ca359f9c1703
+01:22:29.567469 DEBUG: COM19: Sending job to the board
+01:22:29.567469 DEBUG: COM19: board_job_request - 36fe7b257625dad1a5446f1169c0ca359f9c1703,d7aa52d7d762082768a50ebb136dd8ea6bb2c695,333,
+01:22:29.569470 DEBUG: COM19: Reading result from the board
+01:22:32.241273 DEBUG: COM19: board_job_response - 11100001100001,1010001011010101010111,DUCOID302E3120FF192143
+01:22:32.242265 DEBUG: COM19: Result: 11100001100001
+01:22:32.243270 DEBUG: COM19: computetime - 2.66786
+01:22:32.244269 DEBUG: COM19: num_res - 14433
+01:22:32.245267 DEBUG: COM19: hashrate_t - 5409.95
+01:22:32.246266 DEBUG: COM19: client_response_send - 14433,5409.95,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+01:22:32.269284 DEBUG: COM19: client_response_feedback - GOOD
+01:22:32.270283 DEBUG: COM19: retrieved feedback: GOOD
+01:22:32  avr19  ⛏ Accepted 3/3 (100%) ∙ 02.7s ∙ 5 kH/s ⚙ diff 333 ∙ ping 22ms
+01:22:32.304276 DEBUG: COM19: Requesting job
+01:22:32.305276 DEBUG: COM19: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+01:22:32.332283 DEBUG: COM19: job_received - fce7c4dc5c808305ef8e851ee4b2ced89c7c6a11,1e4cb849ddd02f89c08c1c3ae43de90e1158ce96,333
+01:22:32.333277 DEBUG: COM19: Received: fce7c4dc5c808305ef8e851ee4b2ced89c7c6a11
+01:22:32.335276 DEBUG: COM19: Sending job to the board
+01:22:32.336279 DEBUG: COM19: board_job_request - fce7c4dc5c808305ef8e851ee4b2ced89c7c6a11,1e4cb849ddd02f89c08c1c3ae43de90e1158ce96,333,
+01:22:32.338276 DEBUG: COM19: Reading result from the board
+01:22:37.659592 DEBUG: COM19: board_job_response - 110111110111000,10100010010011100110100,DUCOID302E3120FF192143
+01:22:37.660589 DEBUG: COM19: Result: 110111110111000
+01:22:37.662592 DEBUG: COM19: computetime - 5.31845
+01:22:37.663598 DEBUG: COM19: num_res - 28600
+01:22:37.664591 DEBUG: COM19: hashrate_t - 5377.51
+01:22:37.665593 DEBUG: COM19: client_response_send - 28600,5377.51,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+01:22:37.688607 DEBUG: COM19: client_response_feedback - GOOD
+01:22:37.690599 DEBUG: COM19: retrieved feedback: GOOD
+01:22:37  avr19  ⛏ Accepted 4/4 (100%) ∙ 05.3s ∙ 5 kH/s ⚙ diff 333 ∙ ping 22ms
+01:22:37.716500 DEBUG: COM19: Requesting job
+01:22:37.718038 DEBUG: COM19: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+01:22:37.741040 DEBUG: COM19: job_received - 71c8753d1dd1692cf7ca34263cad583a8c399fc2,bae88a40ffa267c2c37faec3c8546ffe48c89d9d,333
+01:22:37.742037 DEBUG: COM19: Received: 71c8753d1dd1692cf7ca34263cad583a8c399fc2
+01:22:37.744035 DEBUG: COM19: Sending job to the board
+01:22:37.745032 DEBUG: COM19: board_job_request - 71c8753d1dd1692cf7ca34263cad583a8c399fc2,bae88a40ffa267c2c37faec3c8546ffe48c89d9d,333,
+01:22:37.746039 DEBUG: COM19: Reading result from the board
+01:22:40.655662 DEBUG: COM19: board_job_response - 11110101100000,1011000101011010001001,DUCOID302E3120FF192143
+01:22:40.657662 DEBUG: COM19: Result: 11110101100000
+01:22:40.658654 DEBUG: COM19: computetime - 2.90574
+01:22:40.659657 DEBUG: COM19: num_res - 15712
+01:22:40.660656 DEBUG: COM19: hashrate_t - 5407.23
+01:22:40.660656 DEBUG: COM19: client_response_send - 15712,5407.23,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+01:22:40.683861 DEBUG: COM19: client_response_feedback - GOOD
+01:22:40.686506 DEBUG: COM19: retrieved feedback: GOOD
+01:22:40  avr19  ⛏ Accepted 5/5 (100%) ∙ 02.9s ∙ 5 kH/s ⚙ diff 333 ∙ ping 22ms
+01:22:40.711889 DEBUG: COM19: Requesting job
+01:22:40.712889 DEBUG: COM19: job_request - JOB,StJMahSzp6aDBn2yWosMkN3c2W4v4G,DUE,y3fwdjWr2T8YY3
+01:22:40.735893 DEBUG: COM19: job_received - 827bac47368f39850740bfec086d6b3486ba9fff,886cbb415c69ddd3613be2034c1f83cd5a0ab457,333
+01:22:40.737892 DEBUG: COM19: Received: 827bac47368f39850740bfec086d6b3486ba9fff
+01:22:40.739894 DEBUG: COM19: Sending job to the board
+01:22:40.740890 DEBUG: COM19: board_job_request - 827bac47368f39850740bfec086d6b3486ba9fff,886cbb415c69ddd3613be2034c1f83cd5a0ab457,333,
+01:22:40.741889 DEBUG: COM19: Reading result from the board
+01:22:42.933645 DEBUG: COM19: board_job_response - 10111001010000,1000010110010101011000,DUCOID302E3120FF192143
+01:22:42.934643 DEBUG: COM19: Result: 10111001010000
+01:22:42.936643 DEBUG: COM19: computetime - 2.18863
+01:22:42.937647 DEBUG: COM19: num_res - 11856
+01:22:42.938953 DEBUG: COM19: hashrate_t - 5417.09
+01:22:42.939968 DEBUG: COM19: client_response_send - 11856,5417.09,Official AVR Miner 3.5,Xiao1,DUCOID302E3120FF192143
+01:22:42.962613 DEBUG: COM19: client_response_feedback - GOOD
+01:22:42.964620 DEBUG: COM19: retrieved feedback: GOOD
+01:22:42  avr19  ⛏ Accepted 6/6 (100%) ∙ 02.2s ∙ 5 kH/s ⚙ diff 333 ∙ ping 22ms
+--------------------------------------------------------
