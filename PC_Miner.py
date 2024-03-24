@@ -1241,6 +1241,28 @@ class Miner:
                         pretty_print(get_string("error_while_mining")
                                      + " " + str(e), "error", "net" + str(id),
                                      print_queue=print_queue)
+                        ###
+                        # https://stackoverflow.com/a/64212552
+                        trace = []
+                        tb = e.__traceback__
+                        while tb is not None:
+                            trace.append({
+                                "filename": tb.tb_frame.f_code.co_filename,
+                                "name": tb.tb_frame.f_code.co_name,
+                                "lineno": tb.tb_lineno
+                            })
+                            tb = tb.tb_next
+                        #print(str({
+                        #    'type': type(ex).__name__,
+                        #    'message': str(ex),
+                        #    'trace': trace
+                        #}))
+                        pretty_print(get_string("error_while_mining")
+                            + " -1- " + str(e) + "\n" + str(e. __traceback__).replace("\n", "\n\t\t")
+                            + "\n" + str({'type': type(e).__name__,'message': str(e),'trace': trace}).replace("\n", "\n\t\t"),
+                            "error", "net" + str(id), print_queue=print_queue)
+                        raise RuntimeError
+                        ###
                         sleep(5)
                         break
             except Exception as e:
