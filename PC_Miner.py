@@ -356,8 +356,30 @@ class Algorithms:
             if time_elapsed > 0:
                 hashrate = 1e9 * nonce / time_elapsed
             else:
-                hashrate = 1e10 * nonce
+                hashrate = 1.5e3 * nonce
+                #6480
                 print ("---------------------------")
+                print ("---------------------------")
+                print ("---------------------------")
+                print ("---------------------------")
+                print ("---------------------------")
+                print ("---------------------------")
+                print ("---------------------------")
+                print(last_h)
+                print(exp_h)
+                print(diff)
+                print(eff)
+                print ("---------------------------")
+                print(bytes(last_h, encoding='ascii'))
+                print ("---------------------------")               
+                print (nonce)
+                print ("---------------------------")
+                print ("---------------------------")
+                print ("---------------------------")
+                print ("---------------------------")
+                print ("---------------------------")
+                print ("---------------------------")
+                
 
             return [nonce, hashrate]
         else:
@@ -1227,7 +1249,8 @@ class Miner:
                                       + get_string('accepted_shares'))
 
                                 if hashrate[id] > 1e10:
-                                    sys.exit(0)
+                                    print(hashrate[id])
+                                    #sys.exit(0)
                                 if id == 0:
                                     end_time = time()
                                     elapsed_time = end_time - last_report
