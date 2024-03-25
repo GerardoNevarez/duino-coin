@@ -353,33 +353,10 @@ class Algorithms:
                 bytes(bytearray.fromhex(exp_h)), diff, int(eff))
 
             time_elapsed = time_ns() - time_start
-            if time_elapsed > 0:
+            if True or time_elapsed > 0:
                 hashrate = 1e9 * nonce / time_elapsed
             else:
-                hashrate = 1.5e3 * nonce
-                #6480
-                print ("---------------------------")
-                print ("---------------------------")
-                print ("---------------------------")
-                print ("---------------------------")
-                print ("---------------------------")
-                print ("---------------------------")
-                print ("---------------------------")
-                print(last_h)
-                print(exp_h)
-                print(diff)
-                print(eff)
-                print ("---------------------------")
-                print(bytes(last_h, encoding='ascii'))
-                print ("---------------------------")               
-                print (nonce)
-                print ("---------------------------")
-                print ("---------------------------")
-                print ("---------------------------")
-                print ("---------------------------")
-                print ("---------------------------")
-                print ("---------------------------")
-                
+                return [0, 0]               
 
             return [nonce, hashrate]
         else:
