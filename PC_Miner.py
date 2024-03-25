@@ -331,6 +331,8 @@ def check_updates():
     except Exception as e:
         print(e)
 
+class DucoHashError(ValueError):
+    pass
 
 class Algorithms:
     """
@@ -353,10 +355,10 @@ class Algorithms:
                 bytes(bytearray.fromhex(exp_h)), diff, int(eff))
 
             time_elapsed = time_ns() - time_start
-            if True or time_elapsed > 0:
+            if time_elapsed > 0:
                 hashrate = 1e9 * nonce / time_elapsed
             else:
-                return [0, 0]               
+                return [nonce,0]
 
             return [nonce, hashrate]
         else:
@@ -374,7 +376,10 @@ class Algorithms:
 
                 if d_res == exp_h:
                     time_elapsed = time_ns() - time_start
-                    hashrate = 1e9 * nonce / time_elapsed
+                    if time_elapsed > 0:
+                        hashrate = 1e9 * nonce / time_elapsed
+                    else:
+                        return [nonce,0]
 
                     return [nonce, hashrate]
 
@@ -1156,7 +1161,7 @@ class Miner:
                                 eff = 1.8
                             elif 30 > eff_setting >= 1:
                                 eff = 3
-
+                            
                             result = Algorithms.DUCOS1(
                                 job[0], job[1], int(job[2]), eff)
                             computetime = time() - time_start
@@ -1225,9 +1230,6 @@ class Miner:
                                       + f') - {accept.value}/{(accept.value + reject.value)}'
                                       + get_string('accepted_shares'))
 
-                                if hashrate[id] > 1e10:
-                                    print(hashrate[id])
-                                    #sys.exit(0)
                                 if id == 0:
                                     end_time = time()
                                     elapsed_time = end_time - last_report
@@ -1258,16 +1260,10 @@ class Miner:
                                 "lineno": tb.tb_lineno
                             })
                             tb = tb.tb_next
-                        #print(str({
-                        #    'type': type(ex).__name__,
-                        #    'message': str(ex),
-                        #    'trace': trace
-                        #}))
                         pretty_print(get_string("error_while_mining")
                             + " -1- " + str(e) + "\n" + str(e. __traceback__).replace("\n", "\n\t\t")
                             + "\n" + str({'type': type(e).__name__,'message': str(e),'trace': trace}).replace("\n", "\n\t\t"),
                             "error", "net" + str(id), print_queue=print_queue)
-                        raise RuntimeError
                         """
 14:49:12  cpu5  Accepted 1139/1139 (100%) ∙ 15.4s ∙ 1.59 MH/s (12.7 MH/s total) @ diff. 310 k ∙ ping 31ms
 14:49:13  cpu3  Accepted 1140/1140 (100%) ∙ 09.3s ∙ 1.61 MH/s (12.7 MH/s total) @ diff. 308 k ∙ ping 15ms
@@ -1300,7 +1296,6 @@ class Miner:
                     + " -2- " + str(e) + "\n" + str(e. __traceback__).replace("\n", "\n\t\t")
                     + "\n" + str({'type': type(e).__name__,'message': str(e),'trace': trace}).replace("\n", "\n\t\t"),
                     "error", "net" + str(id), print_queue=print_queue)
-                raise RuntimeError
                 ###
 
 
