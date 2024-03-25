@@ -69,9 +69,9 @@ def handler(signal_received, frame):
     if running_on_rpi and user_settings["raspi_leds"] == "y":
         # Reset onboard status LEDs
         os.system(
-            'echo mmc0 | sudo tee /sys/class/leds/led0/trigger >/dev/null 2>&1')
+            'echo mmc0 | sudo tee /sys/class/leds/green_led/trigger >/dev/null 2>&1')
         os.system(
-            'echo 1 | sudo tee /sys/class/leds/led1/brightness >/dev/null 2>&1')
+            'echo 1 | sudo tee /sys/class/leds/green_led/brightness >/dev/null 2>&1')
 
     if sys.platform == "win32":
         _exit(0)
@@ -656,16 +656,16 @@ def share_print(id, type,
     def _blink_builtin(led="green"):
         if led == "green":
             os.system(
-                'echo 1 | sudo tee /sys/class/leds/led0/brightness >/dev/null 2>&1')
+                'echo 1 | sudo tee /sys/class/leds/green_led/brightness >/dev/null 2>&1')
             sleep(0.1)
             os.system(
-                'echo 0 | sudo tee /sys/class/leds/led0/brightness >/dev/null 2>&1')
+                'echo 0 | sudo tee /sys/class/leds/green_led/brightness >/dev/null 2>&1')
         else:
             os.system(
-                'echo 1 | sudo tee /sys/class/leds/led1/brightness >/dev/null 2>&1')
+                'echo 1 | sudo tee /sys/class/leds/green_led/brightness >/dev/null 2>&1')
             sleep(0.1)
             os.system(
-                'echo 0 | sudo tee /sys/class/leds/led1/brightness >/dev/null 2>&1')
+                'echo 0 | sudo tee /sys/class/leds/green_led/brightness >/dev/null 2>&1')
     
     if type == "accept":
         if running_on_rpi and user_settings["raspi_leds"] == "y":
@@ -1433,24 +1433,27 @@ if __name__ == "__main__":
     if not "raspi_cpu_iot" in user_settings:
         user_settings["raspi_cpu_iot"] = "y"
     
-    if user_settings["raspi_leds"] == "y":
-        try:
-            with io.open('/sys/firmware/devicetree/base/model', 'r') as m:
-                if 'raspberry pi' in m.read().lower():
-                    running_on_rpi = True
-                    pretty_print(
-                        get_string("running_on_rpi") +
-                        Style.NORMAL + Fore.RESET + " " +
-                        get_string("running_on_rpi2"), "success")
-        except:
-            running_on_rpi = False
+    try:
+        with io.open('/sys/firmware/devicetree/base/model', 'r') as m:
+            """
+            if 'raspberry pi' in m.read().lower():
+            """ 
+            if 'pi' in m.read().lower():
+                running_on_rpi = True
+                pretty_print(
+                    get_string("running_on_rpi") +
+                    Style.NORMAL + Fore.RESET + " " +
+                    get_string("running_on_rpi2"), "success")
+    except:
+        running_on_rpi = False
 
+    if user_settings["raspi_leds"] == "y":
         if running_on_rpi:
             # Prepare onboard LEDs to be controlled
             os.system(
-                'echo gpio | sudo tee /sys/class/leds/led1/trigger >/dev/null 2>&1')
+                'echo gpio | sudo tee /sys/class/leds/green_led/trigger >/dev/null 2>&1')
             os.system(
-                'echo gpio | sudo tee /sys/class/leds/led0/trigger >/dev/null 2>&1')
+                'echo gpio | sudo tee /sys/class/leds/green_led/trigger >/dev/null 2>&1')
 
     if user_settings["raspi_cpu_iot"] == "y" and running_on_rpi:
         try:
